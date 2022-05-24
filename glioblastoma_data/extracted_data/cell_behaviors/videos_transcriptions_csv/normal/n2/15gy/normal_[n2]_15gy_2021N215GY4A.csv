@@ -1,0 +1,15 @@
+time,event,input,output
+0,begin,[],C1
+27,out,C1,[]
+0,begin,[],C2
+228,out,C2,[]
+0,begin,[],C3
+392,death,C3,[]
+0,begin,[],C4
+443,death,C4,[]
+0,begin,[],C5
+371,out,C5,[]
+0,begin,[],C6
+163,death,C6,[]
+0,begin,[],C7
+721,end,C7,[]

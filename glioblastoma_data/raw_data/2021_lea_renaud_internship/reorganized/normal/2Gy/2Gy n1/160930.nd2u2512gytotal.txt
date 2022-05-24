@@ -1,0 +1,406 @@
+color violet
+
+# cellule 1
+0 begin C1
+268 div C1 2 C1.1 C1.2
+504 div C1.1 2 C1.1.1 C1.1.2
+576 end C1.1.1
+576 end C1.1.2 
+572 div C1.2 2 C1.2.1 C1.2.2
+576 end C1.2.1
+
+576 end C1.2.2
+
+
+# cellule 2
+0 begin C2
+110 div C2 2 C2.1 C2.2 
+484 death C2.2 
+358 div C2.1 2 C.2.1.1 C.2.1.2
+361 fusion C.2.1.1 C.2.1.2 in C2.3
+412 death C2.3
+
+
+
+
+# cellule 3
+0 begin C3
+196 div C3 2 C3.1 C3.2
+
+
+
+214 death C3.2
+
+288 div C3.1 2 C3.1.1 C3.1.2
+308 fusion C3.1.1 C3.1.2 in C3.1.3
+576 end C3.1.3
+
+# cellule 4
+0 begin C4
+400 death C4
+
+# cellule 5
+0 begin C5
+277 death C5
+
+#cellule 6
+0 begin C6
+576 end C6
+
+#cellule 7
+
+0 begin C7
+45 div C7 2 C7.1 C7.2
+
+#C7.1
+
+174 div C7.1 2 C7.1.1 C7.1.2
+
+340 div C7.1.1 2 C7.1.1.1 C7.1.1.2
+341 div C7.1.2 2 C7.1.2.1 C7.1.2.2
+576 end C7.1.1.1
+576 end C7.1.1.2
+576 end C7.1.2.1
+576 end C7.1.2.2
+
+499 div C7.1.1.1 2 C7.1.1.1.1 C7.1.1.1.2
+576 end C7.1.1.1.1
+576 end C7.1.1.1.2 
+
+
+341 div C7.1.2 2 C7.t C7.m
+526 out C7.m
+
+515 div C7.t 2 C7.1.2.1.1 C7.1.2.1.2
+576 end C7.1.2.1.1
+
+
+
+576 end C7.1.2.1.2 
+
+#C7.2
+
+171 div C7.2 2 C7.2.1 C7.2.2
+322 div C7.2.1 2 C7.2.1.1 C7.2.1.2
+493 div C7.2.1.1 2 C7.2.1.1.1 C7.2.1.1.2
+576 end C7.2.1.1.1 
+576 end C7.2.1.1.2
+
+
+506 div C7.2.1.2 2 C7.2.1.2.1 C7.2.1.2.2
+576 end C7.2.1.2.1
+576 end C7.2.1.2.2
+
+
+326 div C7.2.2 2 C7.2.2.1 C7.2.2.2
+445 div C7.2.2.1 2 C7.2.2.1.1 C7.2.2.1.2
+576 end C7.2.2.1.1
+576 end C7.2.2.1.2 
+
+461 div C7.2.2.2 2 C7.2.2.2.1 C7.2.2.2.2
+574 div C7.2.2.2.1 2 C7.2.2.2.1.1 C7.2.2.2.1.2
+576 end C7.2.2.2.1.1 
+576 end C7.2.2.2.1.2
+
+
+570 div C7.2.2.2.2 2 C7.2.2.2.2.1 C7.2.2.2.2.2
+576 end C7.2.2.2.2.1 
+576 end C7.2.2.2.2.2
+
+
+# cellule 8
+0 begin C8
+221 div C8 2 C8.1 C8.2
+491 div C8.1 2 C8.1.1 C8.1.2
+576 end C8.1.1
+576 end C8.1.2 
+
+490 div C8.2 2 C8.2.1 C8.2.2
+576 end C8.2.1 
+
+
+576 end C8.2.2
+
+
+# cellule 9
+0 begin C9
+576 end C9
+
+# cellule 10
+0 begin C10
+216 div C10 2 C10.1 C10.2
+463 death C10.1
+576 end C10.2
+
+# cellule 11
+0 begin C11
+340 death C11
+
+#cellule 12
+0 begin C12
+143 div C12 2 C12.1 C12.2
+267 out C12.1
+343 div C12.2 2 C12.2.1 C12.2.2
+350 out C12.2.1
+463 div C12.2.2 2 C12.2.2.1 C12.2.2.2
+500 out C12.2.2.1
+576 end C12.2.2.2
+
+
+#cell 13
+
+0 begin C13
+77 div C13 2 C13.1 C13.2
+235 div C13.1 2 C13.1.1 C13.1.2
+457 div C13.1.1 2 C13.1.1.1 C13.1.1.2
+576 end C13.1.1.2
+576 end C13.1.1.1 
+
+404 div C13.1.2 2 C13.1.2.1 C13.1.2.2
+561 div C13.1.2.1 2 C13.1.2.1.1 C13.1.2.1.2 
+576 end C13.1.2.1.1
+576 end C13.1.2.1.2 
+525 div C13.1.2.2 2 C13.1.2.2.1 C13.1.2.2.2
+576 end C13.1.2.2.1
+576 end C13.1.2.2.2 
+
+236 div C13.2 2 C13.2.1 C13.2.2
+502 death C13.2.1 
+392 div C13.2.2 2 C13.2.2.1 C13.2.2.2
+576 end C13.2.2.1 
+576 end C13.2.2.2 
+
+
+
+
+
+#cellule 14
+
+0 begin C14
+112 div C14 2 C14.1 C14.2
+380 out C14.1
+288 div C14.2 2 C14.2.1 C14.2.2
+343 out C14.2.2
+415 div C14.2.1 2 C14.2.1.1 C14.2.1.2
+530 div C14.2.1.1 2 C14.2.1.1.1 C14.2.1.1.2
+576 end C14.2.1.1.1
+576 end C14.2.1.1.2
+
+
+576 end C14.2.1.2 
+
+
+
+#cell 15
+0 begin C15
+107 div C15 2 C15.1 C15.2
+276 div C15.1 2 C15.1.1 C15.1.2
+307 death C15.1.1
+306 death C15.1.2
+243 div C15.2 2 C15.2.1 C15.2.2
+257 fusion C15.2.1 C15.2.2 in C15.3
+303 death C15.3
+
+#cell 16
+0 begin C16
+72 div C16 2 C16.1 C16.2 
+211 div C16.1 2 C16.1.1 C16.1.2
+576 end C16.1.1 
+374 div C16.1.2 2 C16.1.2.1 C16.1.2.2
+565 div C16.1.2.1 2 C16.1.2.1.1 C16.1.2.1.2
+576 end C16.1.2.1.1
+576 end C16.1.2.1.2
+530 div C16.1.2.2 2 C16.1.2.2.1 C16.1.2.2.2
+576 end C16.1.2.2.2
+576 end C16.1.2.2.1 
+217 div C16.2 2 C16.2.1 C16.2.2
+363 div C16.2.2 2 C16.2.2.1 C16.2.2.2
+575 div C16.2.2.2 2 C16.2.2.2.1 C16.2.2.2.2
+
+576 end C16.2.2.2.1
+576 end C16.2.2.2.2 
+576 end C16.2.2.1
+
+
+415 div C16.2.1 2 Cx C16.2.1.2
+576 end Cx
+
+576 end C16.2.1.2 
+
+
+
+
+# cell 17
+
+0 begin C17
+75 div C17 2 C40.1 C40.2 
+130 out C40.2
+198 div C40.1 2 C40.1.1 C40.1.2
+225 out C40.1.2
+322 div C40.1.1 2 C40.1.1.1 C40.1.1.2
+440 div C40.1.1.1 2 C40.1.1.1.1 C40.1.1.1.2
+486 out C40.1.1.1.2
+576 end C40.1.1.1.1
+429 div C40.1.1.2 2 C40.1.1.2.1 C40.1.1.2.2
+553 div C40.1.1.2.1 2 C40.1.1.2.1.1 C40.1.1.2.1.2
+576 end C40.1.1.2.1.1
+576 end C40.1.1.2.1.2
+557 div C40.1.1.2.2 2 C40.1.1.2.2.2 C40.1.1.2.2.1
+576 end C40.1.1.2.2.2
+576 end C40.1.1.2.2.1
+
+#cell 18
+0 begin C18 
+78 div C18 2 C50.1 C50.2 
+206 div C50.2 2 C50.2.1 C50.2.2
+384 death C50.2.1
+415 div C50.2.2 2 C50.2.2.1 C50.2.2.2 
+576 end C50.2.2.2 
+557 div C50.2.2.1 3 C50.2.2.1.1 C50.2.2.1.2 C50.2.2.1.3
+576 end C50.2.2.1.1
+576 end C50.2.2.1.2
+576 end C50.2.2.1.3
+
+
+
+223 div C50.1 2 C50.1.1 C50.1.2
+362 div C50.1.1 2 C50.1.1.1 C50.1.1.2
+490 div C50.1.1.1 2 C50.1.1.1.1 C50.1.1.1.2
+576 end C50.1.1.1.1
+576 end C50.1.1.1.2
+486 div C50.1.1.2 2 C50.1.1.2.1 C50.1.1.2.2
+576 end C50.1.1.2.1
+576 end C50.1.1.2.2
+
+376 div C50.1.2 2 C50.1.2.1 C50.1.2.2
+576 end C50.1.2.1 
+504 div C50.1.2.2 2 C50.1.2.2.1 C50.1.2.2.2
+576 end C50.1.2.2.1
+576 end C50.1.2.2.2 
+# ccellule 1
+0 begin cc1
+477 div cc1 3 cc1.1 cc1.2 cc1.3
+483 fusion cc1.1 cc1.2 in cc1.4
+576 end cc1.4
+576 end cc1.3
+
+# ccellule 2
+0 begin cc2
+100 div cc2 3 cc2.1 cc2.2 cc2.3
+413 death cc2.1
+479 fusion cc2.2 cc2.3 in cc2.4
+576 end cc2.4
+
+# ccellule 3
+0 begin cc3
+243 out cc3
+
+# ccellule 4
+0 begin cc4
+135 div cc4 2 cc4.1 cc4.2
+260 div cc4.1 3 cc4.1.1 cc4.1.2 cc4.1.3
+400 death cc4.1.1
+288 fusion cc4.1.2 cc4.1.3 in cc4.1.4
+576 end cc4.1.4
+338 div cc4.2 3 cc4.2.1 cc4.2.2 cc4.2.3
+350 fusion cc4.2.2 cc4.2.3 in cc4.2.4
+380 fusion cc4.2.4 cc4.2.1 in cc4.5
+576 end cc4.5
+
+# ccellule 5
+0 begin cc5
+132 div cc5 2 cc5.1 cc5.2 
+576 end cc5.1
+576 end cc5.2
+
+# ccellule 6
+0 begin cc6
+132 div cc6 2 cc6.1 cc6.2 
+506 death cc6.1
+576 end cc6.2
+
+#ccellule 7
+0 begin cc7
+426 div cc7 3 cc7.1 cc7.2 cc7.3
+576 end cc7.1 
+551 div cc7.2 3 cc7.2.1 cc7.2.2 cc7.2.3
+562 death cc7.2.1
+576 end cc7.2.2
+576 end cc7.2.3
+541 div cc7.3 2 cc7.3.1 cc7.3.2
+576 end cc7.3.1 
+576 end cc7.3.2 
+
+# ccellule 8
+0 begin cc8
+450 out cc8
+
+# ccellule 9
+0 begin cc9
+40 div cc9 2 cc9.1 cc9.2
+
+172 div cc9.1 2 cc9.1.1 cc9.1.2
+
+459 div cc9.1.2 2 cc9.1.2.1 cc9.1.2.2
+576 end cc9.1.2.2
+476 div cc9.1.2.1 2 cc9.1.2.1.1 cc9.1.2.1.2
+576 end cc9.1.2.1.1 
+
+576 end cc9.1.2.1.2 
+
+370 div cc9.1.1 2 cc9.1.1.1 cc9.1.1.2
+576 end cc9.1.1.1 
+386 div cc9.1.1.2 2 cc9.1.1.2.1 cc9.1.1.2.2
+576 end cc9.1.1.2.1 
+
+576 end cc9.1.1.2.2
+
+350 div cc9.2 2 cc9.2.1 cc9.2.2
+
+384 div cc9.2.1 2 cc9.2.1.1 cc9.2.1.2
+
+576 end cc9.2.1.1 
+489 div cc9.2.1.2 2 cc9.2.1.2.1 cc9.2.1.2.2
+576 end cc9.2.1.2.1
+576 end cc9.2.1.2.2 
+
+456 div cc9.2.2 2 cc9.2.2.1 cc9.2.2.2
+576 end cc9.2.2.1
+576 end cc9.2.2.2 
+
+# ccellule 10
+0 begin cc10
+160 div cc10 2 cc10.1 cc10.2
+336 div cc10.1 2 cc10.1.1 cc10.1.2
+576 end cc10.1.1
+514 div cc10.1.2 2 cc10.1.2.1 cc10.1.2.2
+576 end cc10.1.2.1
+576 end cc10.1.2.2 
+
+350 div cc10.2 2 cc10.2.1 cc10.2.2
+576 end cc10.2.1
+500 div cc10.2.2 2 cc10.2.2.1 cc10.2.2.2
+576 end cc10.2.2.1
+576 end cc10.2.2.2 
+
+#ccellule 11
+0 begin cc11
+576 end cc11
+
+#ccellule 12
+0 begin cc12
+215 div cc12 2 cc12.1 cc12.2
+576 end cc12.1
+576 end cc12.2
+
+#ccellule 13
+0 begin cc13
+123 div cc13 2 cc13.1 cc13.2
+301 out cc13.2
+278 div cc13.1 2 cc13.1.1 cc13.1.2
+510 death cc13.1.1
+570 div cc13.1.2 2 cc13.1.2.1 cc13.1.2.2
+576 end cc13.1.2.1 
+576 end cc13.1.2.2
+
+

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="3750" height="750">
+<rect width="3750" height="15" x="0" y="0" fill="white" />
+<rect width="3750" height="15" x="0" y="735" fill="white" />
+<rect width="25" height="750" x="0" y="0" fill="white" />
+<rect width="25" height="750" x="3725" y="0" fill="white" />
+<rect width="3710" height="144" x="25" y="15" fill="ghostwhite" />
+<rect width="3710" height="144" x="25" y="159" fill="snow" />
+<rect width="3710" height="144" x="25" y="303" fill="ghostwhite" />
+<rect width="3710" height="144" x="25" y="447" fill="snow" />
+<rect width="3710" height="144" x="25" y="591" fill="ghostwhite" />
+<text x="12" y="87" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="red" > D0</text>
+<text x="12" y="231" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="red" > D1</text>
+<text x="12" y="375" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="red" > D2</text>
+<text x="12" y="519" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="red" > D3</text>
+<text x="12" y="663" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="red" > D4</text>
+<text x="12" y="20" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="black" > 0</text>
+<text x="12" y="164" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="black" > 144</text>
+<text x="12" y="308" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="black" > 288</text>
+<text x="12" y="452" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="black" > 432</text>
+<text x="12" y="596" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="black" > 576</text>
+<text x="12" y="740" font-family="Verdana" font-size="10" text-anchor="middle"  dominant-baseline="middle" fill="black" > 720</text>
+<text x="50" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C1</text>
+<circle cx="50" cy="15" r="4" fill="white" stroke="black" />
+<line x1="50" y1="19" x2="50" y2="343" stroke="black" />
+<line x1="46" y1="339" x2="54" y2="347" stroke="red" />
+<line x1="46" y1="347" x2="54" y2="339" stroke="red" />
+<text x="50" y="355" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 328</text>
+<text x="250" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C2</text>
+<circle cx="250" cy="15" r="4" fill="white" stroke="black" />
+<line x1="250" y1="19" x2="250" y2="259" stroke="black" />
+<line x1="150" y1="259" x2="350" y2="259" stroke="black" />
+<text x="275" y="251" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 244</text>
+<circle cx="150" cy="259" r="4" fill="white" stroke="black" />
+<circle cx="250" cy="259" r="4" fill="white" stroke="black" />
+<circle cx="350" cy="259" r="4" fill="white" stroke="black" />
+<line x1="150" y1="263" x2="150" y2="360" stroke="black" />
+<line x1="150" y1="360" x2="250" y2="393" stroke="black" />
+<line x1="250" y1="263" x2="250" y2="360" stroke="black" />
+<line x1="250" y1="360" x2="250" y2="393" stroke="black" />
+<line x1="350" y1="263" x2="350" y2="360" stroke="black" />
+<line x1="350" y1="360" x2="250" y2="393" stroke="black" />
+<text x="250" y="381" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 378</text>
+<circle cx="250" cy="393" r="4" fill="white" stroke="black" />
+<line x1="250" y1="397" x2="250" y2="397" stroke="black" />
+<line x1="246" y1="393" x2="254" y2="401" stroke="red" />
+<line x1="246" y1="401" x2="254" y2="393" stroke="red" />
+<text x="250" y="409" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 382</text>
+<text x="450" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C3</text>
+<circle cx="450" cy="15" r="4" fill="white" stroke="black" />
+<line x1="450" y1="19" x2="450" y2="205" stroke="black" />
+<line x1="446" y1="209" x2="450" y2="201" stroke="blue" />
+<line x1="450" y1="209" x2="454" y2="201" stroke="blue" />
+<text x="450" y="217" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 190</text>
+<text x="600" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C4</text>
+<circle cx="600" cy="15" r="4" fill="white" stroke="black" />
+<line x1="600" y1="19" x2="600" y2="205" stroke="black" />
+<line x1="550" y1="205" x2="650" y2="205" stroke="black" />
+<text x="625" y="197" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 190</text>
+<circle cx="550" cy="205" r="4" fill="white" stroke="black" />
+<circle cx="650" cy="205" r="4" fill="white" stroke="black" />
+<line x1="550" y1="209" x2="550" y2="296" stroke="black" />
+<line x1="550" y1="296" x2="600" y2="326" stroke="black" />
+<line x1="650" y1="209" x2="650" y2="296" stroke="black" />
+<line x1="650" y1="296" x2="600" y2="326" stroke="black" />
+<text x="600" y="314" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 311</text>
+<circle cx="600" cy="326" r="4" fill="white" stroke="black" />
+<line x1="600" y1="330" x2="600" y2="415" stroke="black" />
+<line x1="566" y1="415" x2="634" y2="415" stroke="black" />
+<text x="608" y="407" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 400</text>
+<circle cx="566" cy="415" r="4" fill="white" stroke="black" />
+<circle cx="599" cy="415" r="4" fill="white" stroke="black" />
+<line x1="566" y1="419" x2="566" y2="424" stroke="black" />
+<line x1="566" y1="424" x2="582" y2="427" stroke="black" />
+<line x1="599" y1="419" x2="599" y2="424" stroke="black" />
+<line x1="599" y1="424" x2="582" y2="427" stroke="black" />
+<text x="582" y="415" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 412</text>
+<circle cx="582" cy="427" r="4" fill="white" stroke="black" />
+<circle cx="632" cy="415" r="4" fill="white" stroke="black" />
+<line x1="582" y1="431" x2="582" y2="472" stroke="black" />
+<line x1="582" y1="472" x2="607" y2="486" stroke="black" />
+<line x1="632" y1="419" x2="632" y2="472" stroke="black" />
+<line x1="632" y1="472" x2="607" y2="486" stroke="black" />
+<text x="607" y="474" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 471</text>
+<circle cx="607" cy="486" r="4" fill="white" stroke="black" />
+<line x1="607" y1="490" x2="607" y2="606" stroke="black" />
+<line x1="587" y1="606" x2="627" y2="606" stroke="black" />
+<text x="609" y="598" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 591</text>
+<circle cx="587" cy="606" r="4" fill="white" stroke="black" />
+<circle cx="597" cy="606" r="4" fill="white" stroke="black" />
+<line x1="587" y1="610" x2="587" y2="660" stroke="black" />
+<line x1="587" y1="660" x2="592" y2="677" stroke="black" />
+<line x1="597" y1="610" x2="597" y2="660" stroke="black" />
+<line x1="597" y1="660" x2="592" y2="677" stroke="black" />
+<text x="592" y="665" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 662</text>
+<circle cx="592" cy="677" r="4" fill="white" stroke="black" />
+<line x1="592" y1="681" x2="592" y2="736" stroke="black" />
+<circle cx="592" cy="736" r="4" fill="white" stroke="black" />
+<text x="592" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="607" cy="606" r="4" fill="white" stroke="black" />
+<line x1="607" y1="610" x2="607" y2="736" stroke="black" />
+<circle cx="607" cy="736" r="4" fill="white" stroke="black" />
+<text x="607" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="617" cy="606" r="4" fill="white" stroke="black" />
+<line x1="617" y1="610" x2="617" y2="736" stroke="black" />
+<circle cx="617" cy="736" r="4" fill="white" stroke="black" />
+<text x="617" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="627" cy="606" r="4" fill="white" stroke="black" />
+<line x1="627" y1="610" x2="627" y2="736" stroke="black" />
+<circle cx="627" cy="736" r="4" fill="white" stroke="black" />
+<text x="627" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<text x="800" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C5</text>
+<circle cx="800" cy="15" r="4" fill="white" stroke="black" />
+<line x1="800" y1="19" x2="800" y2="162" stroke="black" />
+<line x1="750" y1="162" x2="850" y2="162" stroke="black" />
+<text x="825" y="154" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 147</text>
+<circle cx="750" cy="162" r="4" fill="white" stroke="black" />
+<line x1="750" y1="166" x2="750" y2="672" stroke="black" />
+<line x1="746" y1="668" x2="754" y2="676" stroke="red" />
+<line x1="746" y1="676" x2="754" y2="668" stroke="red" />
+<text x="750" y="684" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 657</text>
+<circle cx="850" cy="162" r="4" fill="white" stroke="black" />
+<line x1="850" y1="166" x2="850" y2="370" stroke="black" />
+<line x1="825" y1="370" x2="875" y2="370" stroke="black" />
+<text x="862" y="362" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 355</text>
+<circle cx="825" cy="370" r="4" fill="white" stroke="black" />
+<circle cx="875" cy="370" r="4" fill="white" stroke="black" />
+<line x1="825" y1="374" x2="825" y2="404" stroke="black" />
+<line x1="825" y1="404" x2="850" y2="415" stroke="black" />
+<line x1="875" y1="374" x2="875" y2="404" stroke="black" />
+<line x1="875" y1="404" x2="850" y2="415" stroke="black" />
+<text x="850" y="403" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 400</text>
+<circle cx="850" cy="415" r="4" fill="white" stroke="black" />
+<line x1="850" y1="419" x2="850" y2="661" stroke="black" />
+<line x1="846" y1="657" x2="854" y2="665" stroke="red" />
+<line x1="846" y1="665" x2="854" y2="657" stroke="red" />
+<text x="850" y="673" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 646</text>
+<text x="1000" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C6</text>
+<circle cx="1000" cy="15" r="4" fill="white" stroke="black" />
+<line x1="1000" y1="19" x2="1000" y2="208" stroke="black" />
+<line x1="950" y1="208" x2="1050" y2="208" stroke="black" />
+<text x="1025" y="200" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 193</text>
+<circle cx="950" cy="208" r="4" fill="white" stroke="black" />
+<circle cx="1050" cy="208" r="4" fill="white" stroke="black" />
+<line x1="950" y1="212" x2="950" y2="243" stroke="black" />
+<line x1="950" y1="243" x2="1000" y2="254" stroke="black" />
+<line x1="1050" y1="212" x2="1050" y2="243" stroke="black" />
+<line x1="1050" y1="243" x2="1000" y2="254" stroke="black" />
+<text x="1000" y="242" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 239</text>
+<circle cx="1000" cy="254" r="4" fill="white" stroke="black" />
+<line x1="1000" y1="258" x2="1000" y2="390" stroke="black" />
+<line x1="966" y1="390" x2="1034" y2="390" stroke="black" />
+<text x="1008" y="382" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 375</text>
+<circle cx="966" cy="390" r="4" fill="white" stroke="black" />
+<circle cx="999" cy="390" r="4" fill="white" stroke="black" />
+<circle cx="1032" cy="390" r="4" fill="white" stroke="black" />
+<line x1="966" y1="394" x2="966" y2="496" stroke="black" />
+<line x1="966" y1="496" x2="999" y2="531" stroke="black" />
+<line x1="999" y1="394" x2="999" y2="496" stroke="black" />
+<line x1="999" y1="496" x2="999" y2="531" stroke="black" />
+<line x1="1032" y1="394" x2="1032" y2="496" stroke="black" />
+<line x1="1032" y1="496" x2="999" y2="531" stroke="black" />
+<text x="999" y="519" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 516</text>
+<circle cx="999" cy="531" r="4" fill="white" stroke="black" />
+<line x1="999" y1="535" x2="999" y2="736" stroke="black" />
+<circle cx="999" cy="736" r="4" fill="white" stroke="black" />
+<text x="999" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<text x="1150" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C7</text>
+<circle cx="1150" cy="15" r="4" fill="white" stroke="black" />
+<line x1="1150" y1="19" x2="1150" y2="735" stroke="black" />
+<line x1="1146" y1="731" x2="1154" y2="739" stroke="red" />
+<line x1="1146" y1="739" x2="1154" y2="731" stroke="red" />
+<text x="1150" y="747" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 720</text>
+<text x="1300" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C8</text>
+<circle cx="1300" cy="15" r="4" fill="white" stroke="black" />
+<line x1="1300" y1="19" x2="1300" y2="273" stroke="black" />
+<line x1="1250" y1="273" x2="1350" y2="273" stroke="black" />
+<text x="1325" y="265" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 258</text>
+<circle cx="1250" cy="273" r="4" fill="white" stroke="black" />
+<line x1="1250" y1="277" x2="1250" y2="406" stroke="black" />
+<line x1="1225" y1="406" x2="1275" y2="406" stroke="black" />
+<text x="1262" y="398" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 391</text>
+<circle cx="1225" cy="406" r="4" fill="white" stroke="black" />
+<line x1="1225" y1="410" x2="1225" y2="619" stroke="black" />
+<line x1="1221" y1="615" x2="1229" y2="623" stroke="red" />
+<line x1="1221" y1="623" x2="1229" y2="615" stroke="red" />
+<text x="1225" y="631" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 604</text>
+<circle cx="1275" cy="406" r="4" fill="white" stroke="black" />
+<line x1="1275" y1="410" x2="1275" y2="736" stroke="black" />
+<circle cx="1275" cy="736" r="4" fill="white" stroke="black" />
+<text x="1275" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="1350" cy="273" r="4" fill="white" stroke="black" />
+<line x1="1350" y1="277" x2="1350" y2="406" stroke="black" />
+<line x1="1325" y1="406" x2="1375" y2="406" stroke="black" />
+<text x="1362" y="398" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 391</text>
+<circle cx="1325" cy="406" r="4" fill="white" stroke="black" />
+<line x1="1325" y1="410" x2="1325" y2="736" stroke="black" />
+<circle cx="1325" cy="736" r="4" fill="white" stroke="black" />
+<text x="1325" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="1375" cy="406" r="4" fill="white" stroke="black" />
+<line x1="1375" y1="410" x2="1375" y2="736" stroke="black" />
+<circle cx="1375" cy="736" r="4" fill="white" stroke="black" />
+<text x="1375" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<text x="1450" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C9</text>
+<circle cx="1450" cy="15" r="4" fill="white" stroke="black" />
+<line x1="1450" y1="19" x2="1450" y2="219" stroke="black" />
+<line x1="1446" y1="215" x2="1454" y2="223" stroke="red" />
+<line x1="1446" y1="223" x2="1454" y2="215" stroke="red" />
+<text x="1450" y="231" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 204</text>
+<text x="1600" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C10</text>
+<circle cx="1600" cy="15" r="4" fill="white" stroke="black" />
+<line x1="1600" y1="19" x2="1600" y2="183" stroke="black" />
+<line x1="1550" y1="183" x2="1650" y2="183" stroke="black" />
+<text x="1625" y="175" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 168</text>
+<circle cx="1550" cy="183" r="4" fill="white" stroke="black" />
+<line x1="1550" y1="187" x2="1550" y2="726" stroke="black" />
+<line x1="1546" y1="722" x2="1554" y2="730" stroke="red" />
+<line x1="1546" y1="730" x2="1554" y2="722" stroke="red" />
+<text x="1550" y="738" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 711</text>
+<circle cx="1650" cy="183" r="4" fill="white" stroke="black" />
+<line x1="1650" y1="187" x2="1650" y2="513" stroke="black" />
+<line x1="1625" y1="513" x2="1675" y2="513" stroke="black" />
+<text x="1662" y="505" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 498</text>
+<circle cx="1625" cy="513" r="4" fill="white" stroke="black" />
+<line x1="1625" y1="517" x2="1625" y2="736" stroke="black" />
+<circle cx="1625" cy="736" r="4" fill="white" stroke="black" />
+<text x="1625" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="1675" cy="513" r="4" fill="white" stroke="black" />
+<line x1="1675" y1="517" x2="1675" y2="736" stroke="black" />
+<circle cx="1675" cy="736" r="4" fill="white" stroke="black" />
+<text x="1675" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<text x="1750" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C11</text>
+<circle cx="1750" cy="15" r="4" fill="white" stroke="black" />
+<line x1="1750" y1="19" x2="1750" y2="219" stroke="black" />
+<line x1="1746" y1="215" x2="1754" y2="223" stroke="red" />
+<line x1="1746" y1="223" x2="1754" y2="215" stroke="red" />
+<text x="1750" y="231" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 204</text>
+<text x="1900" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C12</text>
+<circle cx="1900" cy="15" r="4" fill="white" stroke="black" />
+<line x1="1900" y1="19" x2="1900" y2="220" stroke="black" />
+<line x1="1850" y1="220" x2="1950" y2="220" stroke="black" />
+<text x="1925" y="212" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 205</text>
+<circle cx="1850" cy="220" r="4" fill="white" stroke="black" />
+<line x1="1850" y1="224" x2="1850" y2="426" stroke="black" />
+<line x1="1846" y1="422" x2="1854" y2="430" stroke="red" />
+<line x1="1846" y1="430" x2="1854" y2="422" stroke="red" />
+<text x="1850" y="438" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 411</text>
+<circle cx="1950" cy="220" r="4" fill="white" stroke="black" />
+<line x1="1950" y1="224" x2="1950" y2="443" stroke="black" />
+<line x1="1946" y1="439" x2="1954" y2="447" stroke="red" />
+<line x1="1946" y1="447" x2="1954" y2="439" stroke="red" />
+<text x="1950" y="455" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 428</text>
+<text x="2150" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C13</text>
+<circle cx="2150" cy="15" r="4" fill="white" stroke="black" />
+<line x1="2150" y1="19" x2="2150" y2="224" stroke="black" />
+<line x1="2050" y1="224" x2="2250" y2="224" stroke="black" />
+<text x="2175" y="216" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 209</text>
+<circle cx="2050" cy="224" r="4" fill="white" stroke="black" />
+<line x1="2050" y1="228" x2="2050" y2="357" stroke="black" />
+<line x1="2025" y1="357" x2="2075" y2="357" stroke="black" />
+<text x="2062" y="349" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 342</text>
+<circle cx="2025" cy="357" r="4" fill="white" stroke="black" />
+<circle cx="2075" cy="357" r="4" fill="white" stroke="black" />
+<line x1="2025" y1="361" x2="2025" y2="460" stroke="black" />
+<line x1="2025" y1="460" x2="2050" y2="494" stroke="black" />
+<line x1="2075" y1="361" x2="2075" y2="460" stroke="black" />
+<line x1="2075" y1="460" x2="2050" y2="494" stroke="black" />
+<text x="2050" y="482" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 479</text>
+<circle cx="2050" cy="494" r="4" fill="white" stroke="black" />
+<line x1="2050" y1="498" x2="2050" y2="693" stroke="black" />
+<line x1="2046" y1="689" x2="2054" y2="697" stroke="red" />
+<line x1="2046" y1="697" x2="2054" y2="689" stroke="red" />
+<text x="2050" y="705" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 678</text>
+<circle cx="2150" cy="224" r="4" fill="white" stroke="black" />
+<line x1="2150" y1="228" x2="2150" y2="475" stroke="black" />
+<line x1="2146" y1="471" x2="2154" y2="479" stroke="red" />
+<line x1="2146" y1="479" x2="2154" y2="471" stroke="red" />
+<text x="2150" y="487" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 460</text>
+<circle cx="2250" cy="224" r="4" fill="white" stroke="black" />
+<line x1="2250" y1="228" x2="2250" y2="386" stroke="black" />
+<line x1="2225" y1="386" x2="2275" y2="386" stroke="black" />
+<text x="2262" y="378" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 371</text>
+<circle cx="2225" cy="386" r="4" fill="white" stroke="black" />
+<circle cx="2275" cy="386" r="4" fill="white" stroke="black" />
+<line x1="2225" y1="390" x2="2225" y2="401" stroke="black" />
+<line x1="2225" y1="401" x2="2250" y2="405" stroke="black" />
+<line x1="2275" y1="390" x2="2275" y2="401" stroke="black" />
+<line x1="2275" y1="401" x2="2250" y2="405" stroke="black" />
+<text x="2250" y="393" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 390</text>
+<circle cx="2250" cy="405" r="4" fill="white" stroke="black" />
+<line x1="2250" y1="409" x2="2250" y2="464" stroke="black" />
+<line x1="2246" y1="460" x2="2254" y2="468" stroke="red" />
+<line x1="2246" y1="468" x2="2254" y2="460" stroke="red" />
+<text x="2250" y="476" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 449</text>
+<text x="2350" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C14</text>
+<circle cx="2350" cy="15" r="4" fill="white" stroke="black" />
+<line x1="2350" y1="19" x2="2350" y2="57" stroke="black" />
+<line x1="2346" y1="61" x2="2350" y2="53" stroke="blue" />
+<line x1="2350" y1="61" x2="2354" y2="53" stroke="blue" />
+<text x="2350" y="69" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 42</text>
+<text x="2500" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C15</text>
+<circle cx="2500" cy="15" r="4" fill="white" stroke="black" />
+<line x1="2500" y1="19" x2="2500" y2="198" stroke="black" />
+<line x1="2450" y1="198" x2="2550" y2="198" stroke="black" />
+<text x="2525" y="190" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 183</text>
+<circle cx="2450" cy="198" r="4" fill="white" stroke="black" />
+<line x1="2450" y1="202" x2="2450" y2="389" stroke="black" />
+<line x1="2446" y1="385" x2="2454" y2="393" stroke="red" />
+<line x1="2446" y1="393" x2="2454" y2="385" stroke="red" />
+<text x="2450" y="401" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 374</text>
+<circle cx="2550" cy="198" r="4" fill="white" stroke="black" />
+<line x1="2550" y1="202" x2="2550" y2="517" stroke="black" />
+<line x1="2546" y1="513" x2="2554" y2="521" stroke="red" />
+<line x1="2546" y1="521" x2="2554" y2="513" stroke="red" />
+<text x="2550" y="529" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 502</text>
+<text x="2700" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C16</text>
+<circle cx="2700" cy="15" r="4" fill="white" stroke="black" />
+<line x1="2700" y1="19" x2="2700" y2="219" stroke="black" />
+<line x1="2650" y1="219" x2="2750" y2="219" stroke="black" />
+<text x="2725" y="211" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 204</text>
+<circle cx="2650" cy="219" r="4" fill="white" stroke="black" />
+<circle cx="2750" cy="219" r="4" fill="white" stroke="black" />
+<line x1="2750" y1="223" x2="2750" y2="381" stroke="black" />
+<line x1="2725" y1="381" x2="2775" y2="381" stroke="black" />
+<text x="2762" y="373" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 366</text>
+<circle cx="2725" cy="381" r="4" fill="white" stroke="black" />
+<line x1="2650" y1="223" x2="2650" y2="432" stroke="black" />
+<line x1="2650" y1="432" x2="2687" y2="448" stroke="black" />
+<line x1="2725" y1="385" x2="2725" y2="432" stroke="black" />
+<line x1="2725" y1="432" x2="2687" y2="448" stroke="black" />
+<text x="2687" y="436" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 433</text>
+<circle cx="2687" cy="448" r="4" fill="white" stroke="black" />
+<line x1="2687" y1="452" x2="2687" y2="736" stroke="black" />
+<circle cx="2687" cy="736" r="4" fill="white" stroke="black" />
+<text x="2687" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="2775" cy="381" r="4" fill="white" stroke="black" />
+<line x1="2775" y1="385" x2="2775" y2="736" stroke="black" />
+<circle cx="2775" cy="736" r="4" fill="white" stroke="black" />
+<text x="2775" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<text x="2900" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C17</text>
+<circle cx="2900" cy="15" r="4" fill="white" stroke="black" />
+<line x1="2900" y1="19" x2="2900" y2="190" stroke="black" />
+<line x1="2850" y1="190" x2="2950" y2="190" stroke="black" />
+<text x="2925" y="182" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 175</text>
+<circle cx="2850" cy="190" r="4" fill="white" stroke="black" />
+<circle cx="2950" cy="190" r="4" fill="white" stroke="black" />
+<line x1="2850" y1="194" x2="2850" y2="229" stroke="black" />
+<line x1="2850" y1="229" x2="2900" y2="242" stroke="black" />
+<line x1="2950" y1="194" x2="2950" y2="229" stroke="black" />
+<line x1="2950" y1="229" x2="2900" y2="242" stroke="black" />
+<text x="2900" y="230" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 227</text>
+<circle cx="2900" cy="242" r="4" fill="white" stroke="black" />
+<line x1="2900" y1="246" x2="2900" y2="466" stroke="black" />
+<line x1="2866" y1="466" x2="2934" y2="466" stroke="black" />
+<text x="2908" y="458" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 451</text>
+<circle cx="2866" cy="466" r="4" fill="white" stroke="black" />
+<line x1="2866" y1="470" x2="2866" y2="736" stroke="black" />
+<circle cx="2866" cy="736" r="4" fill="white" stroke="black" />
+<text x="2866" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="2899" cy="466" r="4" fill="white" stroke="black" />
+<line x1="2899" y1="470" x2="2899" y2="736" stroke="black" />
+<circle cx="2899" cy="736" r="4" fill="white" stroke="black" />
+<text x="2899" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="2932" cy="466" r="4" fill="white" stroke="black" />
+<line x1="2932" y1="470" x2="2932" y2="623" stroke="black" />
+<line x1="2928" y1="627" x2="2932" y2="619" stroke="blue" />
+<line x1="2932" y1="627" x2="2936" y2="619" stroke="blue" />
+<text x="2932" y="635" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 608</text>
+<text x="3200" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C18</text>
+<circle cx="3200" cy="15" r="4" fill="white" stroke="black" />
+<line x1="3200" y1="19" x2="3200" y2="507" stroke="black" />
+<line x1="3050" y1="507" x2="3350" y2="507" stroke="black" />
+<text x="3225" y="499" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 492</text>
+<circle cx="3050" cy="507" r="4" fill="white" stroke="black" />
+<line x1="3050" y1="511" x2="3050" y2="722" stroke="black" />
+<line x1="3046" y1="718" x2="3054" y2="726" stroke="red" />
+<line x1="3046" y1="726" x2="3054" y2="718" stroke="red" />
+<text x="3050" y="734" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 707</text>
+<circle cx="3150" cy="507" r="4" fill="white" stroke="black" />
+<circle cx="3250" cy="507" r="4" fill="white" stroke="black" />
+<circle cx="3350" cy="507" r="4" fill="white" stroke="black" />
+<line x1="3150" y1="511" x2="3150" y2="679" stroke="black" />
+<line x1="3150" y1="679" x2="3250" y2="736" stroke="black" />
+<line x1="3250" y1="511" x2="3250" y2="679" stroke="black" />
+<line x1="3250" y1="679" x2="3250" y2="736" stroke="black" />
+<line x1="3350" y1="511" x2="3350" y2="679" stroke="black" />
+<line x1="3350" y1="679" x2="3250" y2="736" stroke="black" />
+<text x="3250" y="724" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<circle cx="3250" cy="736" r="4" fill="white" stroke="black" />
+<line x1="3250" y1="740" x2="3250" y2="736" stroke="black" />
+<circle cx="3250" cy="736" r="4" fill="white" stroke="black" />
+<text x="3250" y="748" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 721</text>
+<text x="3550" y="7" font-family="Verdana" font-size="7" text-anchor="middle"  dominant-baseline="middle" fill="black" > C19</text>
+<circle cx="3550" cy="15" r="4" fill="white" stroke="black" />
+<line x1="3550" y1="19" x2="3550" y2="194" stroke="black" />
+<line x1="3450" y1="194" x2="3650" y2="194" stroke="black" />
+<text x="3575" y="186" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 179</text>
+<circle cx="3450" cy="194" r="4" fill="white" stroke="black" />
+<line x1="3450" y1="198" x2="3450" y2="430" stroke="black" />
+<line x1="3446" y1="426" x2="3454" y2="434" stroke="red" />
+<line x1="3446" y1="434" x2="3454" y2="426" stroke="red" />
+<text x="3450" y="442" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 415</text>
+<circle cx="3550" cy="194" r="4" fill="white" stroke="black" />
+<circle cx="3650" cy="194" r="4" fill="white" stroke="black" />
+<line x1="3550" y1="198" x2="3550" y2="360" stroke="black" />
+<line x1="3550" y1="360" x2="3600" y2="415" stroke="black" />
+<line x1="3650" y1="198" x2="3650" y2="360" stroke="black" />
+<line x1="3650" y1="360" x2="3600" y2="415" stroke="black" />
+<text x="3600" y="403" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 400</text>
+<circle cx="3600" cy="415" r="4" fill="white" stroke="black" />
+<line x1="3600" y1="419" x2="3600" y2="442" stroke="black" />
+<line x1="3596" y1="438" x2="3604" y2="446" stroke="red" />
+<line x1="3596" y1="446" x2="3604" y2="438" stroke="red" />
+<text x="3600" y="454" font-family="Verdana" font-size="8" text-anchor="middle"  dominant-baseline="middle" fill="black" > 427</text>
+</svg>

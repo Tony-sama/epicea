@@ -1,0 +1,98 @@
+color white
+
+#Date: 2016 09 30 
+#cellules : u251
+#irradiation: 2Gy
+#puit: Prise 3
+
+
+
+# cellule 1
+0 begin C1
+221 div C1 2 C1.1 C1.2
+491 div C1.1 2 C1.1.1 C1.1.2
+721 end C1.1.1
+639 div C1.1.2 2 C1.1.2.1 C1.1.2.2
+721 end C1.1.2.1
+721 end C1.1.2.2
+
+490 div C1.2 2 C1.2.1 C1.2.2
+619 div C1.2.1 2 C1.2.1.1 C1.2.1.2
+721 end C1.2.1.1
+721 end C1.2.1.2
+
+635 div C1.2.2 2 C1.2.2.2 C1.2.2.1
+649 out C1.2.2.1
+721 end C1.2.2.2 
+
+
+
+# cellule 2
+0 begin C2
+110 div C2 2 C2.1 C2.2 
+484 death C2.2 
+358 div C2.1 2 C.2.1.1 C.2.1.2
+361 fusion C.2.1.1 C.2.1.2 in C2.3
+412 death C2.3
+
+
+
+# cellule 3
+0 begin C3
+721 end C3
+
+# cellule 4
+0 begin C4
+216 div C4 2 C4.1 C4.2
+463 death C4.1
+681 death C4.2
+
+# cellule 5
+0 begin C5
+340 death C5
+
+#cellule 6
+0 begin C6
+143 div C6 2 C6.1 C6.2
+267 out C6.1
+343 div C6.2 2 C6.2.1 C6.2.2
+350 out C6.2.1
+463 div C6.2.2 2 C6.2.2.1 C6.2.2.2
+500 out C6.2.2.1
+580 out C6.2.2.2
+
+#cellule 7
+
+0 begin C7
+112 div C7 2 C7.1 C7.2
+380 out C7.1
+288 div C7.2 2 C7.2.1 C7.2.2
+343 out C7.2.2
+415 div C7.2.1 2 C7.2.1.1 C7.2.1.2
+530 div C7.2.1.1 2 C7.2.1.1.1 C7.2.1.1.2
+643 div C7.2.1.1.1 2 C7.2.1.1.1.1 C7.2.1.1.1.2
+
+721 end C7.2.1.1.1.1
+721 end C7.2.1.1.1.2
+
+659 div C7.2.1.1.2 2 C7.2.1.1.2.1 C7.2.1.1.2.2
+721 end C7.2.1.1.2.1
+
+
+721 end C7.2.1.1.2.2
+612 div C7.2.1.2 2 C7.2.1.2.1 C7.2.1.2.2
+
+
+719 div C7.2.1.2.1 2 C7.2.1.2.1.1 C7.2.1.2.1.2
+714 div C7.2.1.2.2 2 C7.2.1.2.2.1 C7.2.1.2.2.2
+721 end C7.2.1.2.1.2
+721 end C7.2.1.2.1.1
+721 end C7.2.1.2.2.1
+721 end C7.2.1.2.2.2
+
+
+
+
+
+
+

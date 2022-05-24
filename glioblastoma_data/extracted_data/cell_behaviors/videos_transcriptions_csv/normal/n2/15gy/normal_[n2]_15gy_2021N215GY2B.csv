@@ -1,0 +1,13 @@
+time,event,input,output
+0,begin,[],C1
+273,out,C1,[]
+0,begin,[],C2
+286,out,C2,[]
+0,begin,[],C3
+273,out,C3,[]
+0,begin,[],C4
+304,out,C4,[]
+0,begin,[],C5
+5,div,C5,"['C5.1', 'C5.2']"
+304,out,C5.1,[]
+223,death,C5.2,[]

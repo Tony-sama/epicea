@@ -1,0 +1,160 @@
+color white
+
+#Date: 2021
+#cellules : u251 CRISPR Sox2
+#irradiation: 0Gy
+#puit: 1A
+
+# cellule 1
+0 begin C1
+78 div C1 2 C1.1 C1.2
+373 div C1.1 2 C1.1.1 C1.1.2
+721 end C1.1.1
+721 end C1.1.2
+333 div C1.2 2 C1.2.1 C1.2.2
+721 end C1.2.1
+721 end C1.2.2
+
+
+# cellule 2
+0 begin C2
+106 div C2 2 C2.1  C2.2
+283 div C2.1 2 C2.1.1 C2.1.2
+721 end C2.1.1
+721 end C2.1.2
+271 div C2.2 2 C2.2.1 C2.2.2
+402 death C2.2.1
+364 death C2.2.2
+
+
+
+# cellule 3
+0 begin C3
+79 div C3 2 C3.1 C3.2
+340 div C3.1 2 C3.1.1 C3.1.2
+721 end C3.1.1 
+721 end C3.1.2
+
+271 div C3.2 2 C3.2.1 C3.2.2
+721 end C3.2.1
+721 end C3.2.2
+
+#cellule 4
+0 begin C4
+78 div C4 2 C4.1 C4.2
+299 div C4.1 2 C4.1.1 C4.1.2
+721 end C4.1.1
+721 end C4.1.2
+721 end C4.2
+
+
+
+#cellule 5
+0 begin C5
+3 div C5 2 C5.1 C5.2
+13 out C5.1
+148 div C5.2 2 C5.2.1 C5.2.2
+334 div C5.2.1 2 C5.2.1.1 C5.2.1.2
+721 end C5.2.1.1
+721 end C5.2.1.2
+299 div C5.2.2 2 C5.2.2.1 C5.2.2.2
+721 end C5.2.2.1
+721 end C5.2.2.2
+
+
+#cellule 6
+0 begin C6
+122 div C6 2 C6.1 C6.2
+286 div C6.1 2 C6.1.1 C6.1.2
+721 end C6.1.1
+431 div C6.1.2 2 C6.1.2.1 C6.1.2.2
+721 end C6.1.2.1
+721 end C6.1.2.2
+
+273 div C6.2 2 C6.2.1 C6.2.2
+422 div C6.2.1 2 C6.2.1.1 C6.2.1.2
+721 end C6.2.1.1
+721 end C6.2.1.2
+721 end C6.2.2
+
+#cellule 7
+0 begin C7
+143 div C7 2 C7.1 C7.2
+307 div C7.1 2 C7.1.1 C7.1.2
+294 div C7.2 2 C7.2.1 C7.2.2
+721 end C7.1.1
+721 end C7.1.2
+721 end C7.2.1
+721 end C7.2.2
+
+#cellule 8
+0 begin C8
+107 div C8 2 C8.1 C8.2
+283 div C8.1 2 C8.1.1 C8.1.2
+
+721 end C8.1.1
+721 end C8.1.2
+
+281 div C8.2 2 C8.2.1 C8.2.2
+721 end C8.2.1
+721 end C8.2.2
+
+#cellule 9
+0 begin C9
+97 div C9 2 C9.1 C9.2
+279 div C9.1 2 C9.1.1 C9.1.2
+721 end C9.1.1
+721 end C9.1.2
+121 out C9.2
+
+#cellule 10
+0 begin C10
+82 div C10 2 C10.1 C10.2
+269 div C10.1 2 C10.1.1 C10.1.2
+371 death C10.1.1
+721 end C10.1.2
+236 div C10.2 2 C10.2.1 C10.2.2
+404 div C10.2.1 2 C10.2.1.1 C10.2.1.2
+446 out C10.2.1.1
+721 end C10.2.1.2
+404 div C10.2.2 2 C10.2.2.1 C10.2.2.2
+721 end C10.2.2.1
+721 end C10.2.2.2
+
+#cellule 11
+0 begin C11
+106 div C11 2 C11.1 C11.2
+721 end C11.1
+406 div C11.2 2 C11.2.1 C11.2.2
+721 end C11.2.1
+721 end C11.2.2
+
+#cellule 12
+0 begin C12
+110 div C12 2 C12.1 C12.2
+313 div C12.1 2 C12.1.1 C12.1.2
+327 death C12.1.1
+327 death C12.1.2
+362 div C12.2 2 C12.2.1 C12.2.2
+721 end C12.2.1
+721 end C12.2.2
+
+#cellule 13
+0 begin C13
+90 div C13 2 C13.1 C13.2
+307 div C13.1 2 C13.1.1 C13.1.2
+721 end C13.1.1
+721 end C13.1.2
+275 div C13.2 2 C13.2.1 C13.2.2
+721 end C13.2.1
+721 end C13.2.2
+
+#cellule 14
+0 begin C14
+81 div C14 2 C14.1 C14.2
+124 out C14.1
+302 div C14.2 3 C14.2.1 C14.2.2 C14.2.3
+721 end C14.2.2
+721 end C14.2.1
+343 out C14.2.3
+

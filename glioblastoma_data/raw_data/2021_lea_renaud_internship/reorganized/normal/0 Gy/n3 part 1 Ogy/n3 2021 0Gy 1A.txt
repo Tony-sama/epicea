@@ -1,0 +1,123 @@
+color white
+
+#Date: 2021
+#cellules : u251
+#irradiation: 0Gy
+#puit: 1A
+
+# cellule 1
+0 begin C1
+123 div C1 2 C1.1 C1.2
+262 div C1.2 2 C1.2.1 C1.2.2
+408 div C1.2.1 2 C1.2.1.1 C1.2.1.2
+432 end C1.2.1.1
+432 end C1.2.1.2
+399 div C1.2.2 2 C1.2.2.2 C1.2.2.1
+432 end C1.2.2.2
+432 end C1.2.2.1
+261 div C1.1 2 C1.1.1 C1.1.2
+424 div C1.1.1 2 C1.1.1.1 C1.1.1.2
+432 end C1.1.1.1
+432 end C1.1.1.2
+421 div C1.1.2 2 C1.1.2.1 C1.1.2.2
+432 end C1.1.2.1
+432 end C1.1.2.2
+
+
+# cellule 2
+0 begin C2
+144 div C2 2 C2.1  C2.2
+282 div C2.1 2 C2.1.1 C2.1.2
+432 end C2.1.1
+432 end C2.1.2
+270 div C2.2 3 C2.2.1 C2.2.2 C2.2.3
+432 end C2.2.1
+432 end C2.2.2
+421 div C2.2.3 2 C2.2.3.1 C2.2.3.2
+432 end C2.2.3.1
+432 end C2.2.3.2
+
+
+
+# cellule 3
+0 begin C3
+46 div C3 2 C3.1 C3.2
+161 div C3.1 2 C3.1.1 C3.1.2
+312 div C3.1.1 2 C3.1.1.1 C3.1.1.2
+432 end C3.1.1.1
+432 end C3.1.1.2
+432 end C3.1.2
+295 div C3.2 2 C3.2.1 C3.2.2
+432 end C3.2.1
+432 end C3.2.2
+
+
+
+
+
+
+#cellule 4
+0 begin C4
+147 div C4 2 C4.1 C4.2
+361 div C4.1 2 C4.1.1 C4.1.2
+432 end C4.1.1
+432 end C4.1.2
+329 div C4.2 2 C4.2.1 C4.2.2
+432 end C4.2.1
+432 end C4.2.2
+
+
+
+#cellule 5
+0 begin C5
+324 div C5 2 C5.1 C5.2
+432 end C5.1
+432 end C5.2
+
+
+#cellule 6
+0 begin C6
+65 div C6 2 C6.1 C6.2
+432 end C6.1
+432 end C6.2
+
+#cellule 7
+0 begin C7
+187 div C7 2 C7.1 C7.2
+432 end C7.1
+432 end C7.2
+
+#cellule 8
+0 begin C8
+4 div C8 2 C8.1 C8.2
+216 div C8.1 2 C8.1.1 C8.1.2
+432 end C8.1.2
+356 div C8.1.1 2 C8.1.1.1 C8.1.1.2
+432 end C8.1.1.1
+432 end C8.1.1.2
+376 div C8.2 2 C8.2.1 C8.2.2
+432 end C8.2.1
+432 end C8.2.2
+
+#cellule 9
+0 begin C9
+155 div C9 2 C9.1 C9.2
+301 div C9.1 2 C9.1.1 C9.1.2
+432 end C9.1.1
+432 end C9.1.2
+
+283 div C9.2 2 C9.2.1 C9.2.2
+432 end C9.2.1
+432 end C9.2.2
+
+#cellule 10
+0 begin C10
+177 div C10 2 C10.1 C10.2
+315 div C10.1 2 C10.1.1 C10.1.2
+432 end C10.1.1
+432 end C10.1.2
+312 div C10.2 2 C10.2.1 C10.2.2
+432 end C10.2.1
+432 end C10.2.2
+
+

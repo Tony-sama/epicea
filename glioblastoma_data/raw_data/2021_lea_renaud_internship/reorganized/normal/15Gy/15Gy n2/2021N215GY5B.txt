@@ -1,0 +1,32 @@
+color white
+
+
+#Date:2021 n2
+#cellules : u251
+#irradiation: 15Gy
+#puit: 5B
+
+# cellule 1
+0 begin C1
+321 div C1 2 C1.1 C1.2
+417 fusion C1.1 C1.2 in C1.3
+496 death C1.3
+
+
+# cellule 2
+0 begin C2
+361 div C2 3 C2.1 C2.2 C2.3
+570 death C2.3
+396 fusion C2.1 C2.2 in C2.4
+504 death C2.4
+
+
+# cellule 3
+0 begin C3
+343 death C3
+
+#cellule 4
+0 begin C4
+233 out C4
+
+

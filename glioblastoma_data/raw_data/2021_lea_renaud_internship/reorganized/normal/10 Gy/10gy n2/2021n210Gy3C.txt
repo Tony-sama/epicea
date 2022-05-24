@@ -1,0 +1,28 @@
+color white
+
+#Date:2021 n2
+#cellules : u251
+#irradiation: 10Gy
+#puit: 3C
+
+# cellule 1
+0 begin C1
+115 div C1 2 C1.1 C1.2
+721 end C1.1
+276 out C1.2
+
+# cellule 2
+0 begin C2
+26 death C2
+
+# cellule 3
+0 begin C3
+212 death C3
+
+#cellule 4
+0 begin C4
+274 death C4
+
+
+
+

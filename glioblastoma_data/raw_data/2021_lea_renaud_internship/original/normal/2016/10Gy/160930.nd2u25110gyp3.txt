@@ -1,0 +1,58 @@
+color white
+
+#Date: 2016 09 30 
+#cellules : u251
+#irradiation: 10Gy
+#puit: Prise 3
+
+
+# cellule 1
+0 begin C1
+493 div C1 3 C1.1 C1.2 C1.3
+515 fusion C1.1 C1.2 C1.3 in C1.4
+597 death C1.4
+
+
+
+
+# cellule 2
+0 begin C2
+395 div C2 2 C2.1 C2.2
+440 fusion C2.1 C2.2 in C2.3
+515 death C2.3
+
+
+# cellule 3
+0 begin C3
+685 div C3 3 C3.1 C3.2 C3.3
+718 fusion C3.1 C3.2 C3.3 in C3.4
+721 end C3.4
+
+# cellule 4
+0 begin C4
+372 death C4
+
+# cellule 5
+0 begin C5
+274 div C5 3 C5.1 C5.2 C5.3
+335 fusion C5.1 C5.2 C5.3 in C5.4
+420 out C5.4
+
+#cellule 6
+0 begin C6
+97 div C6 2 C6.1 C6.2
+108 fusion C6.1 C6.2 in C6.3
+130 div C6.3 3 C6.3.1 C6.3.2 C6.3.3
+145 fusion C6.3.1 C6.3.2 in C6.4
+180 fusion C6.3.3 C6.4 in C6.5
+580 death C6.5
+
+
+
+
+
+
+
+
+
+

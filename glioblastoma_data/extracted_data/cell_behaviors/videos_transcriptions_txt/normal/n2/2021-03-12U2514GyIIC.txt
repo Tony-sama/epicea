@@ -1,0 +1,41 @@
+color white
+
+#Date: 2021 03 12 
+#cellules : u251
+#irradiation: 4Gy
+#puit: II C
+
+# cellule 1
+0 begin C1
+267 div C1 2 C1.1 C1.2
+721 end C1.1
+721 end C1.2
+
+
+# cellule 2
+0 begin C2
+274 div C2 2 C2.1 C2.2
+721 end C2.1
+721 end C2.2
+
+
+
+# cellule 3
+0 begin C3
+60 div C3 2 C3.1 C3.2
+721 end C3.1
+419 div C3.2 2 C3.2.1 C3.2.2
+452 fusion C3.2.1 C3.2.2 in C3.3
+555 death C3.3
+
+#cellule 4
+0 begin C4
+174 div C4 2 C4.2 C4.1
+662 fusion C4.2 C4.1 in C4.3
+721 end C4.3
+
+#cellule 5
+0 begin C5
+164 out C5
+
+

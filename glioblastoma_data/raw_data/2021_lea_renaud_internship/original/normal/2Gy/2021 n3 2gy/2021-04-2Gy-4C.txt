@@ -1,0 +1,103 @@
+color white
+
+#Date: 2021 04
+#cellules : u251
+#irradiation: 2GY
+#puit: 4C
+
+
+#cellule 1
+
+0 begin C1
+348 death C1
+
+#cellule 2
+
+0 begin C2
+131 div C2 2 C2.1 C2.2
+302 div C2.1 2 C2.1.1 C2.1.2
+549 div C2.1.1 2 C2.1.1.1 C2.1.1.2
+576 end C2.1.1.1
+576 end C2.1.1.2
+521 div C2.1.2 2 C2.1.2.1 C2.1.2.2
+576 end C2.1.2.1
+576 end C2.1.2.2
+
+291 div C2.2 2 C2.2.1 C2.2.2
+576 end C2.2.1
+445 div C2.2.2 2 C2.2.2.1 C2.2.2.2
+576 end C2.2.2.1
+576 end C2.2.2.2
+
+
+#cellule 3
+0 begin C3
+146 div C3 2 C3.1 C3.2 
+359 div C3.1 2 C3.1.1 C3.1.2
+507 div C3.1.1 2 C3.1.1.1 C3.1.1.2
+576 end C3.1.1.1
+576 end C3.1.1.2
+576 end C3.1.2
+
+315 div C3.2 2 C3.2.1 C3.2.2
+379 death C3.2.1
+576 end C3.2.2
+
+#cellule 4
+0 begin C4
+170 div C4 2 C4.1 C4.2
+359 div C4.1 2 C4.1.1 C4.1.2
+465 death C4.1.1
+576 end C4.1.2
+
+334 div C4.2 2 C4.2.1 C4.2.2
+553 div C4.2.1 2 C4.2.1.1 C4.2.1.2
+576 end C4.2.1.1
+576 end C4.2.1.2
+576 end C4.2.2
+
+
+#cellule C5
+0 begin C5
+119 div C5 2 C5.1 C5.2
+284 div C5.1 2 C5.1.1 C5.1.2
+444 div C5.1.1 2 C5.1.1.1 C5.1.1.2
+576 end C5.1.1.1
+576 end C5.1.1.2
+517 div C5.1.2 2 C5.1.2.1 C5.1.2.2
+576 end C5.1.2.1
+576 end C5.1.2.2
+
+270 div C5.2 2 C5.2.1 C5.2.2
+405 div C5.2.1 2 C5.2.1.1 C5.2.1.2
+553 fusion C5.2.1.1 C5.2.1.2 in C5.3
+576 end C5.3
+
+460 div C5.2.2 3 C5.2.2.1 C5.2.2.2 C5.2.2.3
+562 div C5.2.2.1 2 C5.2.2.1.1 C5.2.2.1.2
+576 end C5.2.2.1.1
+576 end C5.2.2.1.2
+521 out C5.2.2.2
+562 div C5.2.2.3 2 C5.2.2.3.1 C5.2.2.3.2
+576 end C5.2.2.3.2
+576 end C5.2.2.3.1
+
+
+
+#cellule 6
+0 begin C6
+106 div C6 3 C6.1 C6.2 C6.3
+397 death C6.2
+445 death C6.1
+576 end C6.3
+
+#cellule 7
+0 begin C7
+171 div C7 2 C7.1 C7.2
+400 div C7.1 2 C7.1.1 C7.1.2
+576 end C7.1.2
+576 end C7.1.1
+
+395 div C7.2 2 C7.2.1 C7.2.2
+576 end C7.2.1
+576 end C7.2.2

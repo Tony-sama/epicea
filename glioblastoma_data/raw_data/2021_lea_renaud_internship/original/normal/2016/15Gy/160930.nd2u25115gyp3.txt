@@ -1,0 +1,60 @@
+
+color violet 
+
+#Date: 2016 09 30 
+#cellules : u251
+#irradiation: 15Gy
+#puit: Prise 3
+
+
+#cellule 1
+0 begin C1
+364 out C1
+
+#cellule 2
+0 begin C2
+291 death C2
+
+
+#cellule 3
+0 begin C3
+262 death C3
+
+#cellule 4
+0 begin C4
+721 end C4
+
+
+#cellule 5
+0 begin C5
+290 div C5 2 C5.1 C5.2
+369 fusion C5.2 C5.1 in C5.3
+523 death C5.3
+
+#cellule 6
+0 begin C6
+623 out C6
+
+#cellule 7
+0 begin C7
+721 end C7
+
+#cellule 8
+0 begin C8
+487 death C8
+
+#cellule 9
+0 begin C9
+712 out C9
+
+#cellule 10
+0 begin C10
+486 div C10 2 C10.1 C10.2
+496 fusion C10.1 C10.2 in C10.3
+611 death C10.3
+
+#cellule 11
+0 begin C11
+368 death C11
+
+

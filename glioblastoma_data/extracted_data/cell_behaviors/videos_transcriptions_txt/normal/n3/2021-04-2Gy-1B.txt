@@ -1,0 +1,56 @@
+color white
+
+#Date: 2021 04
+#cellules : u251
+#irradiation: 2GY
+#puit: B1 
+
+#cellule 1
+
+0 begin C1
+78 div C1 2 C1.1 C1.2
+249 div C1.1 2 C1.1.1 C1.1.2
+408 div C1.1.1 2 C1.1.1.1 C1.1.1.2
+576 end C1.1.1.1
+576 end C1.1.1.2
+
+359 out  C1.1.2 
+
+239 div C1.2 2 C1.2.1 C1.2.2
+449 div C1.2.1 2 C1.2.1.1 C1.2.1.2
+576 end C1.2.1.1
+576 end C1.2.1.2
+443 div C1.2.2 2 C1.2.2.1 C1.2.2.2
+576 end C1.2.2.1
+576 end C1.2.2.2
+
+#cellule 2
+
+0 begin C2
+102 div C2 2 C2.1 C2.2
+328 div C2.1 2 C2.1.1 C2.1.2
+380 death C2.1.1
+380 death C2.1.2
+263 div C2.2 2 C2.2.1 C2.2.2
+427 out C2.2.1
+555 div C2.2.2 3 C2.2.2.1 C2.2.2.2 C2.2.2.3
+559 fusion C2.2.2.1 C2.2.2.2 in C2.3
+575 fusion C2.3 C2.2.2.3 in C2.4
+576 end C2.4
+
+#cellule 3
+0 begin C3
+145 out C3
+
+
+#cellule 4
+0 begin C4
+162 div C4 2 C4.1 C4.2
+359 div C4.1 2 C4.1.1 C4.1.2
+368 death C4.1.1
+368 death C4.1.2
+350 div C4.2 2 C4.2.1 C4.2.2
+360 death C4.2.1
+359 death C4.2.2
+
+

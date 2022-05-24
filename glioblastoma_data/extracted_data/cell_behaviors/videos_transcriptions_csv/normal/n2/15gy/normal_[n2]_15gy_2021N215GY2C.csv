@@ -1,0 +1,26 @@
+time,event,input,output
+0,begin,[],C1
+192,div,C1,"['C1.1', 'C1.2', 'C1.3', 'C1.4', 'C1.5']"
+411,death,C1.1,[]
+426,death,C1.2,[]
+376,death,C1.3,[]
+368,fusion,"['C1.4', 'C1.5']",C1.6
+376,death,C1.6,[]
+0,begin,[],C2
+390,death,C2,[]
+0,begin,[],C3
+253,div,C3,"['C3.1', 'C3.2']"
+262,fusion,"['C3.1', 'C3.2']",C3.3
+292,div,C3.3,"['C3.3.1', 'C3.3.2']"
+431,death,C3.3.1,[]
+473,death,C3.3.2,[]
+0,begin,[],C4
+353,death,C4,[]
+0,begin,[],C5
+279,div,C5,"['C5.1', 'C5.2']"
+721,end,C5.1,[]
+532,death,C5.2,[]
+0,begin,[],C6
+271,div,C6,"['C6.1', 'C6.2']"
+508,death,C6.1,[]
+721,end,C6.2,[]

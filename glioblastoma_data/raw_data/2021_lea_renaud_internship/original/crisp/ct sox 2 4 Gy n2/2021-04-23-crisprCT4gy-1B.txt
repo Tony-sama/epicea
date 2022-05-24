@@ -1,0 +1,103 @@
+color white
+
+#Date: 2021 04 23
+#cellules : u251 CRISPR CT
+#irradiation: 4Gy
+#puit: 1B
+
+# cellule 1
+0 begin C1
+52 div C1 2 C1.1 C1.2
+371 div C1.1 3 C1.1.1 C1.1.2 C1.1.3
+501 fusion C1.1.1 C1.1.2 in C1.3
+525 fusion C1.3 C1.1.3 in C1.4
+721 end C1.4
+
+
+276 div C1.2 2 C1.2.1 C1.2.2
+721 end C1.2.1
+638 death C1.2.2
+
+# cellule 2
+0 begin C2
+149 div C2 2 C2.1  C2.2
+384 death C2.2
+374 div C2.1 2 C2.1.2 C2.1.1
+419 fusion C2.1.2 C2.1.1 in C2.3
+618 death C2.3
+
+
+# cellule 3
+0 begin C3
+325 div C3 3 C3.1 C3.2 C3.3
+662 death C3.1
+721 end C3.2
+463 div C3.3 2 C3.3.1 C3.3.2
+721 end C3.3.1
+721 end C3.3.2
+
+#cellule 4
+0 begin C4
+334 div C4 3 C4.1 C4.2 C4.3
+580 death C4.1
+624 death C4.2
+678 div C4.3 3 C4.3.1 C4.3.2 C4.3.3
+711 fusion C4.3.1 C4.3.2 C4.3.3 in C4.4
+721 end C4.4
+
+#cellule 5
+0 begin C5
+135 div C5 2 C5.1 C5.2
+202 death C5.1
+379 div C5.2 3 C5.2.1 C5.2.2 C5.2.3
+402 fusion C5.2.1 C5.2.2 in C5.3
+409 fusion C5.3 C5.2.3 in C5.4
+475 death C5.4
+
+
+
+#cellule 6
+0 begin C6
+181 div C6 2 C6.1 C6.2
+468 death C6.1
+460 div C6.2 2 C6.2.1 C6.2.2
+690 div C6.2.1 2 C6.2.1.1 C6.2.1.2
+721 end C6.2.1.1
+721 end C6.2.1.2 
+640 div C6.2.2 2 C6.2.2.1 C6.2.2.2
+721 end C6.2.2.1
+721 end C6.2.2.2
+
+
+#cellule 7
+0 begin C7
+235 div C7 2 C7.1 C7.2
+266 fusion C7.1 C7.2 in C7.3
+350 death C7.3
+
+#cellule 8
+0 begin C8
+163 div C8 2 C8.1 C8.2
+383 div C8.1 2 C8.1.1 C8.1.2
+448 death C8.1.1
+721 end C8.1.2
+378 div C8.2 2 C8.2.1 C8.2.2 
+542 fusion C8.2.1 C8.2.2 in C8.3
+564 death C8.3
+
+#cellule 9
+0 begin C9
+138 div C9 2 C9.1 C9.2
+369 div C9.1 2 C9.1.1 C9.1.2
+515 div C9.1.1 2 C9.1.1.1 C9.1.1.2
+721 end C9.1.1.1
+721 end C9.1.1.2
+522 div C9.1.2 2 C9.1.2.1 C9.1.2.2
+721 end C9.1.2.1
+721 end C9.1.2.2
+
+335 div C9.2 2 C9.2.1 C9.2.2
+439 death C9.2.1
+482 div C9.2.2 2 C9.2.2.1 C9.2.2.2
+721 end C9.2.2.1
+603 death C9.2.2.2

@@ -1,0 +1,255 @@
+color white
+
+#Date:2021 n3
+#cellules : u251
+#irradiation: 15Gy
+#puit: 6A
+
+# cellule 1
+0 begin C1
+333 div C1 2 C1.1 C1.2
+539 div C1.1 2 C1.1.1 C1.1.2
+603 fusion C1.1.1 C1.1.2 in C1.3
+633 death C1.3
+508 div C1.2 2 C1.2.1 C1.2.2
+539 out C1.2.1
+604 out C1.2.2
+
+# cellule 2
+0 begin C2
+72 out C2
+
+
+# cellule 3
+0 begin C3
+85 out C3
+
+#cellule 4
+0 begin C4
+313 death C4
+
+#cellule 5
+0 begin C5
+416 div C5 5 C5.1 C5.2 C5.3 C5.4 C5.5
+611 death C5.1
+429 fusion C5.2 C5.3 in C5.6
+440 fusion C5.6 C5.4 in C5.7
+500 fusion C5.7 C5.5 in C5.8
+533 death C5.8
+
+#cellule 6
+0 begin C6
+399 death C6
+
+#cellule 7
+0 begin C7
+345 out C7
+
+#cellue 8
+0 begin C8
+156 div C8 2 C8.1 C8.2
+400 death C8.1
+300 out C8.2
+
+#cellule 9
+0 begin C9
+211 div C9 2 C9.1 C9.2
+396 death C9.1
+380 div C9.2 3 C9.2.1 C9.2.2 C9.2.3
+417 fusion C9.2.1 C9.2.2 C9.2.3 in C9.3
+574 death C9.3
+
+
+#cellule 10
+0 begin C10
+342 div C10 3 C10.1 C10.2 C10.3
+720 death C10.1
+367 fusion C10.2 C10.3 in C10.4
+441 death C10.4
+
+
+#cellule 11
+0 begin C11
+272 div C11 3 C11.1 C11.2 C11.3 
+293 fusion C11.1 C11.2 C11.3 in C11.4
+295 death C11.4
+
+#cellule 12
+0 begin C12
+437 death C12
+
+#cellule 13
+0 begin C13
+152 div C13 2 C13.1 C13.2
+721 end C13.1
+337 div C13.2 2 C13.2.1 C13.2.2
+592 death C13.2.1
+479 death C13.2.2
+
+#cellule 14
+0 begin C14
+267 div C14 3 C14.1 C14.2 C14.3
+672 death C14.1
+283 fusion C14.2 C14.3 in C14.4
+721 end C14.4
+
+#cellule 15
+0 begin C15
+188 div C15 2 C15.1 C15.2
+449 div C15.1 3 C15.1.1 C15.1.2 C15.1.3
+460 fusion C15.1.1 C15.1.2 in C15.3
+500 fusion C15.3 C15.1.3 in C15.4
+535 death C15.4
+473 div C15.2 2 C15.2.1 C15.2.2
+480 fusion C15.2.1 C15.2.2 in C15.5
+543 death C15.5
+
+#cellule 16
+0 begin C16
+190 div C16 2 C16.1 C16.2
+240 fusion C16.1 C16.2 in C16.4
+715 death C16.4
+
+#cellule 17
+0 begin C17
+204 div C17 2 C17.1 C17.2
+263 fusion C17.1 C17.2 in C17.3
+449 death C17.3
+
+#cellule 18
+0 begin C18
+211 out C18
+
+#cellule 19
+0 begin C19
+250 div C19 2 C19.1 C19.2
+641 death C19.1
+651 death C19.2
+
+#cellule 20
+0 begin C20
+575 death C20
+
+#cellule 21
+0 begin C21
+28 out C21
+
+#cellule 22
+0 begin C22
+264 div C22 4 C22.1 C22.2 C22.3 C22.4
+282 fusion C22.1 C22.2 in C22.5
+283 fusion C22.3 C22.4 in C22.6
+286 fusion C22.5 C22.6 in C22.7
+721 end C22.7
+
+#cellule 23
+0 begin C23
+480 death C23
+
+#cellule 24
+0 begin C24
+365 death C24
+
+#cellule 25
+0 begin C25
+279 div C25 3 C25.1 C25.2 C25.3
+721 end C25.1
+420 death C25.2
+579 death C25.3
+
+#cellule 26
+0 begin C26
+213 div C26 2 C26.1 C26.2
+655 death C26.1
+505 death C26.2
+
+#cellule 27
+0 begin C27
+283 div C27 3 C27.1 C27.2 C27.3
+721 end C27.1
+721 end C27.2
+463 div C27.3 3 C27.3.1 C27.3.2 C27.3.3
+486 fusion C27.3.1 C27.3.2 in C27.5
+544 fusion C27.5 C27.3.3 in C27.6
+721 end C27.6
+
+#cellule 28
+0 begin C28
+5 div C28 2 C28.1 C28.2
+580 death C28.1
+496 div C28.2 3 C28.2.1 C28.2.2 C28.2.3
+500 fusion C28.2.2 C28.2.3 in C28.3
+581 death C28.3
+600 death C28.2.1
+
+#cellule 29
+0 begin C29
+389 out C29
+
+#cellule 30
+0 begin C30
+229 div C30 2 C30.1 C30.2
+283 fusion C30.1 C30.2 in C30.3
+472 out C30.3
+
+#cellule 31
+0 begin C31
+256 out C31
+
+#cellule 32
+0 begin C32
+404 div C32 5 C32.1 C32.2 C32.3 C32.4 C32.5
+426 death C32.1
+422 death C32.2
+422 death C32.3
+421 fusion C32.4 C32.5 in C32.6
+423 death C32.6
+
+#cellule 33
+0 begin C33
+289 out C33
+
+#cellule 34
+0 begin C34
+457 div C34 4 C34.1 C34.2 C34.3 C34.4
+478 fusion C34.1 C34.2 in C34.5
+523 death C34.5
+655 death C34.3
+606 death C34.4
+
+#cellule 35
+0 begin C35
+390 out C35
+
+#cellule 36
+0 begin C36
+635 div C36 6 C36.1 C36.2 C36.3 C36.4 C36.5 C36.6
+651 fusion C36.1 C36.2 in C36.7
+661 fusion C36.7 C36.3 in C36.8
+672 fusion C36.8 C36.4 in C36.9
+679 fusion C36.9 C36.5 C36.6 in C36.1.1
+721 end C36.1.1
+
+#cellule 37
+0 begin C37
+361 out C37
+
+#cellule 38
+0 begin C38
+434 death C38
+
+#cellule 39
+0 begin C39
+549 death C39
+
+#cellule 40
+0 begin C40
+385 div C40 4 C40.1 C40.2 C40.3 C40.4
+404 fusion C40.1 C40.2 C40.3 in C40.5
+405 fusion C40.5 C40.4 in C40.6
+632 death C40.6
+
+
+
+
+

@@ -1,0 +1,142 @@
+color white
+
+#Date: 07 06 2021
+#cellules : u251
+#irradiation: 10Gy
+#puit: 2A
+
+# cellule 1
+0 begin C1
+444 out C1
+
+# cellule 2
+0 begin C2
+190 div C2 3 C2.1 C2.2 C2.3
+340 death C2.1
+353 death C2.2
+472 death C2.3
+
+# cellule 3
+0 begin C3
+193 div C3 2 C3.1 C3.2
+383 death C3.1
+378 div C3.2 2 C3.2.1 C3.2.2
+493 fusion C3.2.1 C3.2.2 in C3.3
+721 end C3.3
+
+#cellule 4
+0 begin C4 
+199 div C4 2 C4.1 C4.2
+335 death C4.1
+360 div C4.2 2 C4.2.1 C4.2.2
+546 out C4.2.1
+571 death C4.2.2
+
+#cellule 5
+0 begin C5
+339 death C5
+
+#cellule 6
+0 begin C6
+317 death C6
+
+#cellule 7
+0 begin C7
+274 div C7 2 C7.1 C7.2
+406 fusion C7.1 C7.2 in C7.4
+550 death C7.4
+
+#cellule 8
+0 begin C8
+222 death C8
+
+#cellule 9
+0 begin C9
+148 div C9 2 C9.1 C9.2
+216 fusion C9.1 C9.2 in C9.5
+329 div C9.5 3 C9.5.1 C9.5.2 C9.5.3
+393 fusion C9.5.1 C9.5.2 in C9.6
+432 fusion C9.6 C9.5.3 in C9.7
+553 death C9.7
+
+#cellule 10
+0 begin C10
+173 div C10 2 C10.1 C10.2
+260 fusion C10.1 C10.2 in C10.4
+382 death C10.4
+
+#cellule 11
+0 begin C11
+384 out C11
+
+
+#cellule 12
+0 begin C12
+364 out C12
+
+#cellule 13
+0 begin C13
+248 div C13 2 C13.1 C13.2
+699 death C13.2
+411 div C13.1 2 C13.1.1 C13.1.2
+701 death C13.1.1
+711 death C13.1.2
+
+#cellule 14
+0 begin C14
+342 div C14 3 C14.1 C14.2 C14.3
+363 fusion C14.1 C14.2 C14.3 in C14.4
+721 end C14.4
+
+
+#cellule 15
+0 begin C15
+214 div C15 2 C15.1 C15.2
+220 fusion C15.1 C15.2 in C15.3
+411 death C15.3
+
+
+#cellule 16
+0 begin C16
+217 div C16 3 C16.1 C16.2 C16.3
+320 fusion C16.1 C16.2 C16.3 in C16.4
+721 end C16.4
+
+#cellule 17
+0 begin C17
+85 death C17
+
+#cellule 18
+0 begin C18
+206 div C18 2 C18.1 C18.2
+253 out C18.1
+641 death C18.2
+
+#cellule 19
+0 begin C19
+226 div C19 2 C19.1 C19.2
+314 fusion C19.1 C19.2 in C19.3
+593 div C19.3 3 C19.3.1 C19.3.2 C19.3.3
+721 fusion C19.3.1 C19.3.2 C19.3.3 in C19.4
+721 end C19.4
+
+#cellule 20 & 21
+0 begin C21
+0 begin C20
+166 div C20 2 C20.1 C20.2
+371 death C20.2
+336 div C20.1 2 C20.1.1 C20.1.2
+721 end C20.1.1
+554 div C20.1.2 2 C20.1.2.1 C20.1.2.2
+721 end C20.1.2.1
+721 end C20.1.2.2
+
+
+
+160 div C21 2 C21.1 C21.2
+721 end C21.2
+339 div C21.1 2 C21.1.1 C21.1.2
+467 fusion C21.1.1 C21.1.2 in C21.3
+628 death C21.3
+
+

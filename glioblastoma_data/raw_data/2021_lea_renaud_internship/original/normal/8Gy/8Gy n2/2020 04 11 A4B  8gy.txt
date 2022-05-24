@@ -1,0 +1,77 @@
+color white
+
+
+#Date: 2020 04 11
+#cellules : u251
+#irradiation: 8GY
+#puit: A4 prise B
+
+# cellule 1
+0 begin C1
+101 death C1
+
+# cellule 2
+0 begin C2
+69 death C2
+
+
+# cellule 3
+0 begin C3
+159 div C3 2 C3.1 C3.2
+398 death C3.1
+368 div C3.2 2 C3.2.1 C3.2.2
+583 div C3.2.1 2 C3.2.1.1 C3.2.1.2
+721 end C3.2.1.1
+721 end C3.2.1.2
+571 div C3.2.2 2 C3.2.2.1 C3.2.2.2
+721 end C3.2.2.1
+721 end C3.2.2.2
+
+
+# cellule 4
+0 begin C4
+154 div C4 2 C4.1 C4.2 
+667 death C4.1
+583 death C4.2
+
+
+#cellule 5
+0 begin C5
+357 div C5 4 C5.1 C5.2 C5.3 C5.4
+409 fusion C5.1 C5.2 in C5.5
+470 death C5.5
+397 fusion C5.3 C5.4 in C5.6 
+466 death C5.6
+
+#cellule 6
+0 begin C6
+378 div C6 3 C6.1 C6.2 C6.3
+396 fusion C6.1 C6.2 in C6.4
+427 fusion C6.4 C6.3 in C6.5
+432 death C6.5
+
+#cellule 7
+0 begin C7
+436 div C7 2 C7.1 C7.2
+530 fusion C7.1 C7.2 in C7.3
+542 out C7.3
+
+#cellule 8
+0 begin C8
+539 out C8
+
+#cellule 9
+0 begin C9
+255 div C9 3 C9.1 C9.2 C9.3
+262 fusion C9.1 C9.2 in C9.4
+280 fusion C9.4 C9.3 in C9.5
+353 death C9.5
+
+
+#cellule 10
+0 begin C10
+174 out C10
+
+
+
+

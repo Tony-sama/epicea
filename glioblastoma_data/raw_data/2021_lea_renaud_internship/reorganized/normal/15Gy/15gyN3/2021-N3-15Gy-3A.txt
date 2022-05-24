@@ -1,0 +1,120 @@
+color white
+
+#Date:2021 n3
+#cellules : u251
+#irradiation: 15Gy
+#puit: 3A
+
+# cellule 1
+0 begin C1
+158 death C1
+
+# cellule 2
+0 begin C2
+83 out C2
+
+
+# cellule 3
+0 begin C3
+334 div C3 2 C3.1 C3.2
+356 fusion C3.1 C3.2 in C3.3
+655 death C3.3
+
+#cellule 4
+0 begin C4
+351 div C4 4 C4.1 C4.2 C4.3 C4.4
+366 fusion C4.1 C4.2 C4.3 in C4.5
+368 fusion C4.4 C4.5 in C4.6
+541 div C4.6 4 C4.6.1 C4.6.2 C4.6.3 C4.6.4
+572 fusion C4.6.1 C4.6.2 C4.6.3 in C4.7
+656 fusion C4.7 C4.6.4 in C4.8
+703 death C4.8
+
+#cellule 5
+0 begin C5
+351 div C5 3 C5.1 C5.2 C5.3
+357 fusion C5.1 C5.2 in C5.5
+362 fusion C5.5 C5.3 in C5.6
+482 div C5.6 4 C5.6.1 C5.6.2 C5.6.3 C5.6.4
+721 end C5.6.4
+502 fusion C5.6.1 C5.6.2 in C5.7
+560 fusion C5.7 C5.6.3 in C5.8
+721 end C5.8
+
+#cellule 6
+0 begin C6
+134 out C6 
+
+#cellule 7
+0 begin C7
+428 div C7 4 C7.1 C7.2 C7.3 C7.4
+647 death C7.1
+463 death C7.2
+469 fusion C7.3 C7.4 in C7.5
+593 death C7.5
+
+
+#cellue 8
+0 begin C8
+463 death C8
+
+#cellule 9
+0 begin C9
+342 div C9 3 C9.1 C9.2 C9.3
+721 end C9.1
+360 fusion C9.2 C9.3 in C9.4
+475 death C9.4
+
+#cellule 10
+0 begin C10
+541 div C10 5 C10.1 C10.2 C10.3 C10.4 C10.5
+720 death C10.1
+582 fusion C10.2 C10.3 in C10.6
+583 fusion C10.4 C10.6 C10.5 in C10.7
+721 end C10.7
+
+#cellule 11
+0 begin C11
+349 div C11 3 C11.1 C11.2 C11.3
+360 fusion C11.1 C11.2 in C11.4
+721 end C11.4
+441 death C11.3
+
+#cellule 12
+0 begin C12
+273 div C12 3 C12.1 C12.2 C12.3
+290 fusion C12.1 C12.2 in C12.4
+312 fusion C12.4 C12.3 in C12.5
+541 death C12.5
+
+#cellule 13
+0 begin C13
+721 end C13
+
+#cellule 14
+0 begin C14
+376 div C14 3 C14.1 C14.2 C14.3
+400 fusion C14.1 C14.2 in C14.4
+405 fusion C14.4 C14.3 in C14.5
+503 death C14.5
+
+#cellule 15
+0 begin C15
+501 div C15 4 C15.1 C15.2 C15.3 C15.4
+520 fusion C15.1 C15.2 in C15.5
+583 fusion C15.3 C15.5 in C15.6
+591 fusion C15.6 C15.4 in C15.7
+592 death C15.7
+
+
+#cellule 16
+0 begin C16
+199 div C16 2 C16.1 C16.2
+229 out C16.1
+312 out C16.2
+
+#cellule 17
+0 begin C17
+59 out C17
+
+

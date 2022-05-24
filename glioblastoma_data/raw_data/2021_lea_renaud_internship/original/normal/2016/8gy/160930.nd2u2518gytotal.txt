@@ -1,0 +1,202 @@
+color violet
+
+# cellule 1
+0 begin C1
+637 div C1 5 C1.1 C1.2 C1.3 C1.4 C1.5
+660 fusion C1.1 C1.2 in C1.12
+721 end C1.12
+659 out C1.4
+721 end C1.5
+721 end C1.3
+
+# cellule 2
+0 begin C2
+180 div C2 3 C2.1  C2.2 C2.3
+194 fusion C2.1 C2.2 in C2.4
+280 fusion C2.4 C2.3 in C2.5
+370 death C2.5
+
+
+# cellule 3
+0 begin C3
+250 div C3 3 C3.1 C3.2 C3.3
+310 fusion C3.1 C3.2 in C3.4
+380 fusion C3.4 C3.3 in C3.5
+388 death C3.5
+
+# cellule 4
+0 begin C4
+170 div C4 2 C4.1 C4.2
+260 fusion C4.1 C4.2 in C4.3
+425 death C4.3
+
+
+# cellule 5
+0 begin C5
+270 div C5 3 C5.1 C5.2 C5.3
+290 fusion C5.1 C5.2 C5.3 in C5.4
+721 end C5.4
+
+# cellule 6
+0 begin C6
+157 div C6 2 C6.1 C6.2
+258 death C6.1
+258 death C6.2
+
+# cellule 7 
+0 begin C7
+228 div C7 3 C7.1 C7.2 C7.3
+270 fusion C7.2 C7.3 in C7.4
+440 out C7.1
+520 death C7.4
+
+# cellule 8
+0 begin C8
+380 death C8
+
+# cellule 9
+0 begin C9
+580 death C9
+
+# cellule 10
+0 begin C10
+200 div C10 3 C10.1 C10.2 C10.3
+721 end C10.1
+438 div C10.2 2 C10.2.1 C10.2.2
+459 death C10.2.1
+460 death C10.2.2
+527 div C10.3 3 C10.3.1 C10.3.2 C10.3.3
+559 death C10.3.3
+721 end C10.3.1
+721 end C10.3.2
+
+# cellule 11
+0 begin C11
+310 div C11 4 C11.1 C11.2 C11.3 C11.4
+410 fusion C11.1 C11.2 C11.3 C11.4 in C11.5
+620 death C11.5
+
+# cellule 12
+0 begin C12
+467 death C12
+
+
+# cellule 13
+0 begin C13
+625 div C13 2 C13.1 C13.2
+660 fusion C13.1 C13.2 in C13.3
+721 end C13.3
+
+
+
+# cellule 14
+0 begin C14
+240 div C14 2 C14.1 C14.2
+595 death C14.1
+439 out C14.2
+
+
+
+# cellule 15 
+0 begin C15
+569 death C15
+
+# cellule 16
+0 begin C16
+418 div C16 2 C16.1 C16.2
+450 fusion C16.1 C16.2 in C16.3
+572 death C16.3
+
+# cellule 17
+0 begin C17
+169 div C17 2 C17.1  C17.2
+301 div C17.2 2 C17.2.1 C17.2.2
+615 out C17.2.1
+658 death C17.2.2
+
+318 div C17.1 2 C17.1.1 C17.1.2
+621 out C17.1.1
+444 div C17.1.2 3 C17.1.2.1 C17.1.2.2 C17.1.2.3
+622 out C17.1.2.1
+622 out C17.1.2.2
+622 out C17.1.2.3
+
+
+# cellule 18
+0 begin C18
+330 div C18 3 C18.1 C18.2 C18.3
+341 fusion C18.1 C18.2 in C18.4
+411 fusion C18.4 C18.3 in C18.5
+721 end C18.5
+
+# cellule 19
+0 begin C19
+721 end C19
+
+# cellule 20
+0 begin C20
+721 end C20
+
+# cellule 21
+0 begin C21
+344 death C21
+
+# cellule 22
+0 begin C22
+587 death C22
+
+# cellule 23
+0 begin C23
+721 end C23
+
+# cellule 24
+0 begin C24
+206 div C24 3 C24.1  C24.2 C24.3
+302 fusion C24.1 C24.2 in C24.4
+545 death C24.3
+434 div C24.4 3 C24.4.1 C24.4.2 C24.4.3
+620 death C24.4.1
+721 end C24.4.2
+721 end C24.4.3
+
+
+# cellule 25
+0 begin C25
+443 death C25
+
+
+
+# cellule 26
+0 begin C26
+518 div C26 3 C26.1 C26.2 C26.3
+540 fusion C26.1 C26.2 C26.3 in C26.4
+721 end C26.4
+
+
+# cellule 27 
+0 begin C27
+297 div C27 3 C27.1 C27.2 C27.3
+325 fusion C27.1 C27.2 C27.3 in C27.4
+689 death C27.4
+
+# cellule 28
+0 begin C28
+287 div C28 2 C28.1 C28.2
+387 fusion C28.1 C28.2 in C28.3
+721 end C28.3
+
+# cellule 29
+0 begin C29
+425 div C29 5 C29.1 C29.2 C29.3 C29.4 C29.5
+721 end C29.1
+475 fusion C29.2 C29.3 C29.4 in C29.6
+532 fusion C29.6 C29.5 in C29.7
+700 death C29.7
+
+
+
+
+
+
+
+

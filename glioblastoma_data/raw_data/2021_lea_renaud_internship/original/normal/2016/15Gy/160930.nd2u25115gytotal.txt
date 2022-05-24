@@ -1,0 +1,164 @@
+color violet
+
+# cellule 1
+0 begin C1
+297 div C1 2 C1.1 C1.2 
+720 fusion C1.1 C1.2 in C1.3
+721 end C1.3
+
+# cellule 2
+0 begin C2
+598 div C2 3 C2.1 C2.2 C2.3
+615 death C2.1
+660 death C2.2
+665 death C2.3
+
+
+# cellule 3
+0 begin C3
+471 death C3
+
+
+# cellule 4
+0 begin C4
+264 div C4 3 C4.1 C4.2 C4.3
+270 fusion C4.1 C4.2 C4.3 in C4.4
+376 death C4.4
+
+# cellule 5
+0 begin C5
+321 div C5 2 C5.1 C5.2 
+360 fusion C5.1 C5.2 in C5.3
+456 death C5.3
+
+# cellule 6
+0 begin C6
+450 div C6 4 C6.1 C6.2 C6.3 C6.4
+528 death C6.1
+525 fusion C6.2 C6.3 C6.4 in C6.5
+569 death C6.5
+
+# cellule 7
+0 begin C7
+473 div C7 3 C7.1 C7.2 C7.3
+495 fusion C7.1 C7.2 C7.3 in C7.4
+721 end C7.4
+
+# cellule 8
+0 begin C8
+358 div C8 2 C8.1 C8.2
+414 fusion C8.1 C8.2 in C8.3
+721 end C8.3
+
+# cellule 9
+0 begin C9
+297 div C9 3 C9.1 C9.2 C9.3
+381 death C9.1
+439 death C9.2
+451 death C9.3
+
+
+# cellule 10
+0 begin C10
+291 death C10
+
+
+
+# cellule 11
+0 begin C11
+262 death C11
+
+# cellule 12
+0 begin C12
+721 end C12
+
+
+
+# cellule 13
+0 begin C13
+290 div C13 2 C13.1 C13.2
+369 fusion C13.2 C13.1 in C13.3
+523 death C13.3
+
+
+# cellule 14
+0 begin C14
+721 end C14
+
+# cellule 15
+0 begin C15
+487 death C15
+
+
+# cellule 16
+0 begin C16
+486 div C16 2 C16.1 C16.2
+496 fusion C16.1 C16.2 in C16.3
+611 death C16.3
+
+# cellule 17
+0 begin C17
+368 death C17
+
+
+
+# cellule 18
+0 begin C18
+0 begin C19
+
+45 fusion C18 C19 in C192
+54 div C192 2 C20.1 C20.2
+
+153 death C20.1
+721 end C20.2
+
+
+
+# cellule 20
+0 begin C20
+303 death C20
+
+# cellule 21
+0 begin C21
+390 death C21
+
+# cellule 22
+0 begin C22
+540 death C22
+
+# cellule 23
+0 begin C23
+269 div C23 2 C23.1 C23.2 
+341 death C23.1
+341 death C23.2
+
+# cellule 24
+0 begin C24
+463 div C24 2 C24.1 C24.2
+581 death C24.1
+615 out C24.2
+
+
+# cellule 25
+0 begin C25
+721 end C25
+
+# cellule 26
+0 begin C26
+390 div C26 2 C26.1  C26.2
+409 fusion C26.1 C26.2 in C26.3
+642 death C26.3
+
+
+# cellule 27
+0 begin C27
+461 death C27
+
+# cellule 28
+0 begin C28
+721 end C28
+
+
+
+
+

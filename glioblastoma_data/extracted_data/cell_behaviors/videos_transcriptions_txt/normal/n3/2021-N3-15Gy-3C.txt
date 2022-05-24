@@ -1,0 +1,149 @@
+color white
+
+#Date:2021 n3
+#cellules : u251
+#irradiation: 15Gy
+#puit: 3C
+
+# cellule 1
+0 begin C1
+370 div C1 4 C1.1 C1.2 C1.3 C1.4
+400 fusion C1.1 C1.2 C1.3 C1.4 in C1.5
+597 death C1.5
+
+# cellule 2
+0 begin C2
+416 out C2
+
+
+# cellule 3
+0 begin C3
+231 div C3 2 C3.1 C3.2
+466 fusion C3.1 C3.2 in C3.4
+529 death C3.4
+
+#cellule 4
+0 begin C4
+286 div C4 3 C4.1 C4.2 C4.3
+312 fusion C4.1 C4.2 C4.3 in C4.4
+721 end C4.4
+
+#cellule 5
+0 begin C5
+387 div C5 4 C5.1 C5.2 C5.3 C5.4
+390 out C5.1
+390 out C5.2
+390 out C5.3
+390 out C5.4
+
+#cellule 6
+0 begin C6
+443 out C6
+
+#cellule 7
+0 begin C7
+364 div C7 3 C7.1 C7.2 C7.3
+385 fusion C7.1 C7.2 in C7.6
+390 fusion C7.3 C7.6 in C7.4
+559 death C7.4
+
+#cellule 8
+0 begin C8
+396 div C8 4 C8.1 C8.2 C8.3 C8.4
+421 end C8.1
+417 fusion C8.2 C8.3 C8.4 in C8.5
+419 death C8.5
+
+#cellule 9
+0 begin C9
+200 div C9 2 C9.1 C9.2
+309 fusion C9.1 C9.2 in C9.3
+351 div C9.3 3 C9.3.1 C9.3.2 C9.3.3
+581 death C9.3.1
+519 fusion C9.3.2 C9.3.3 in C9.4
+615 death C9.4
+
+#cellule 10
+0 begin C10
+251 div C10 2 C10.1 C10.2
+329 death C10.1
+542 div C10.2 3 C10.2.1 C10.2.2 C10.2.3
+593 death C10.2.1
+583 fusion C10.2.2 C10.2.3 in C10.3
+592 death C10.3
+
+#cellule 11
+0 begin C11
+397 div C11 3 C11.1 C11.2 C11.3
+583 death C11.3
+415 fusion C11.1 C11.2 in C11.4
+593 death C11.4
+
+#cellule 12
+0 begin C12
+82 out C12
+
+#cellule 13
+0 begin C13
+433 div C13 4 C13.1 C13.2 C13.3 C13.4
+557 death C13.1
+443 fusion C13.2 C13.3 in C13.5 
+497 fusion C13.5 C13.4 in C13.6
+550 death C13.6
+
+#cellule 14
+0 begin C14
+721 end C14
+
+#cellule 15
+0 begin C15
+237 div C15 3 C15.1 C15.2 C15.3
+251 fusion C15.1 C15.2 in C15.4
+315 fusion C15.4 C15.3 in C15.5
+548 out C15.5
+
+#cellule 16
+0 begin C16
+457 death C16
+
+#cellule 17
+0 begin C17
+438 death C17
+
+#cellule 18
+0 begin C18
+291 div C18 3 C18.1 C18.2 C18.3
+311 fusion C18.1 C18.2 C18.3 in C18.4
+425 death C18.4
+
+#cellule 19
+0 begin C19
+286 div C19 2 C19.1 C19.2 
+341 fusion C19.1 C19.2 in C19.4
+721 end C19.4
+
+#cellule 20
+0 begin C20
+390 div C20 4 C20.1 C20.2 C20.3 C20.4
+412 fusion C20.1 C20.2 in C20.5
+454 fusion C20.5 C20.3 C20.4 in C20.6
+721 end C20.6
+
+#cellule 21
+0 begin C21
+255 out C21
+
+
+#cellule 22
+0 begin C22
+1 out C22
+
+#cellule 23
+0 begin C23
+270 out C23
+
+#cellule 24
+0 begin C24
+43 out C24
+
+

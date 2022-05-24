@@ -1,0 +1,134 @@
+color white
+
+#Date:2021 n3
+#cellules : u251
+#irradiation: 15Gy
+#puit: 2B
+
+# cellule 1
+0 begin C1
+346 div C1 4 C1.1 C1.2 C1.3 C1.4
+359 fusion C1.1 C1.2 in C1.5
+357 fusion C1.3 C1.4 in C1.6
+362 fusion C1.5 C1.6 in C1.7
+436 death C1.7
+
+# cellule 2
+0 begin C2
+205 div C2 2 C2.1 C2.2
+275 fusion C2.1 C2.2 in C2.3
+518 death C2.3
+
+
+# cellule 3
+0 begin C3
+262 div C3 2 C3.1 C3.2
+273 fusion C3.1 C3.2 in C3.4
+323 death C3.4
+
+#cellule 4
+0 begin C4
+392 death C4
+
+#cellule 5
+0 begin C5
+67 out C5
+
+#cellule 6
+0 begin C6
+308 div C6 4 C6.1 C6.2 C6.3 C6.4
+328 fusion C6.1 C6.2 in C6.5
+333 fusion C6.5 C6.3 in C6.6
+620 death C6.6
+721 end C6.4
+
+#cellule 7
+0 begin C7
+327 out C7
+
+#cellue 8
+0 begin C8
+653 div C8 4 C8.1 C8.2 C8.3 C8.4
+667 fusion C8.1 C8.2 in C8.5
+679 fusion C8.3 C8.4 in C8.6
+687 fusion C8.6 C8.5 in C8.7
+721 end C8.7
+
+#cellule 9
+0 begin C9
+302 div C9 4 C9.1 C9.2 C9.3 C9.4
+317 fusion C9.1 C9.2 C9.3 C9.4 in C9.5
+646 death C9.5
+
+#cellule 10
+0 begin C10
+66 out C10
+
+#cellule 11
+0 begin C11
+160 div C11 2 C11.1 C11.2
+721 end C11.1
+391 out C11.2
+
+#cellule 12
+0 begin C12
+343 div C12 3 C12.1 C12.2 C12.3
+395 fusion C12.1 C12.2 C12.3 in C12.4
+414 death C12.4
+
+#cellule 13
+0 begin C13
+1 out C13
+
+#cellule 14
+0 begin C14
+124 div C14 3 C14.1 C14.2 C14.3
+500 death C14.1
+152 fusion C14.2 C14.3 in C14.4
+288 div C14.4 2 C14.4.1 C14.4.2
+585 death C14.4.1
+371 death C14.4.2
+
+#cellule 15
+0 begin C15
+285 death C15
+
+
+#cellule 16
+0 begin C16
+260 death C16
+
+#cellule 17
+0 begin C17
+272 div C17 4 C17.1 C17.2 C17.3 C17.4
+333 death C17.1
+305 fusion C17.3 C17.2 in C17.5
+311 fusion C17.5 C17.4 in C17.6
+460 death C17.6
+
+#cellule 18
+0 begin C18
+276 div C18 2 C18.1 C18.2 
+341 fusion C18.1 C18.2 in C18.4
+393 death C18.4
+
+#cellule 19
+0 begin C19
+309 death C19
+
+#cellule 20
+0 begin C20
+326 div C20 4 C20.1 C20.2 C20.3 C20.4
+331 fusion C20.1 C20.2 C20.3 C20.4 in C20.5
+352 death C20.5
+
+#cellule 21
+0 begin C21
+408 death C21
+
+
+#cellule 22
+0 begin C22
+56 out C22
+
+

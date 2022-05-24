@@ -1,0 +1,114 @@
+color white
+
+#Date: 07 06 2021
+#cellules : u251
+#irradiation: 10Gy
+#puit: 6A
+
+# cellule 1
+0 begin C1
+656 death C1
+
+# cellule 2
+0 begin C2
+344 div C2 4 C2.1 C2.2 C2.3 C2.4
+441 fusion C2.1 C2.2 in C2.5
+444 fusion C2.5 C2.3 in C2.6
+604 death C2.4
+721 end C2.6
+
+# cellule 3
+0 begin C3
+721 end C3
+
+#cellule 4
+0 begin C4
+165 div C4 2 C4.1 C4.2
+361 fusion C4.1 C4.2 in C4.3
+394 death C4.3
+
+#cellule 5
+0 begin C5
+444 div C5 3 C5.1 C5.2 C5.3
+513 fusion C5.1 C5.2 in C5.4
+522 fusion C5.4 C5.3 in C5.5
+612 death C5.5
+
+#cellule 6
+0 begin C6
+553 death C6
+
+#cellule 7
+0 begin C7
+292 div C7 3 C7.1 C7.2 C7.3
+412 fusion C7.1 C7.2 in C7.4
+477 fusion C7.4 C7.3 in C7.5
+518 death C7.5
+
+#cellule 8
+0 begin C8
+149 div C8 2 C8.1 C8.2 
+721 end C8.1
+326 div C8.2 2 C8.2.1 C8.2.2
+496 fusion C8.2.1 C8.2.2 in C8.3
+597 death C8.3
+
+#cellule 9
+0 begin C9
+375 div C9 4 C9.1 C9.2 C9.4 C9.3
+444 fusion C9.1 C9.2 C9.3 C9.4 in C9.5
+459 death C9.5
+
+#cellule 10
+0 begin C10
+169 div C10 2 C10.1 C10.2
+297 div C10.1 3 C10.1.1 C10.1.2 C10.1.3
+465 death C10.1.1
+465 death C10.1.2
+465 death C10.1.3
+325 div C10.2 2 C10.2.1 C10.2.2
+522 death C10.2.2
+487 div C10.2.1 2 C10.2.1.1 C10.2.1.2
+520 fusion C10.2.1.1 C10.2.1.2 in C10.3
+610 death C10.3
+
+#cellule 11
+0 begin C11
+204 div C11 2 C11.1 C11.2
+435 death C11.1
+354 div C11.2 2 C11.2.1 C11.2.2
+534 fusion C11.2.1 C11.2.2 in C11.3
+721 end C11.3
+
+#cellule 12
+0 begin C12
+206 death C12
+
+#cellule 13
+0 begin C13
+151 death C13
+
+#cellule 14
+0 begin C14
+216 div C14 3 C14.1 C14.2 C14.3
+398 fusion C14.1 C14.2 in C14.4
+678 fusion C14.3 C14.4 in C14.5
+721 end C14.5
+
+#cellule 15
+0 begin C15
+190 div C15 2 C15.1 C15.2
+232 fusion C15.1 C15.2 in C15.3
+431 death C15.3
+
+#cellule 16
+0 begin C16
+328 div C16 3 C16.1 C16.2 C16.3
+421 fusion C16.1 C16.2 C16.3 in C16.4
+556 out C16.4
+
+#cellule 17
+0 begin C17
+93 death C17
+
+

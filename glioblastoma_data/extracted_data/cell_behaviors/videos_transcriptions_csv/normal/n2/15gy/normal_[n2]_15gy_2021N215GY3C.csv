@@ -1,0 +1,54 @@
+time,event,input,output
+0,begin,[],C1
+427,death,C1,[]
+0,begin,[],C2
+637,death,C2,[]
+0,begin,[],C3
+241,div,C3,"['C3.1', 'C3.2']"
+721,end,C3.1,[]
+721,end,C3.2,[]
+0,begin,[],C4
+317,div,C4,"['C4.1', 'C4.2', 'C4.3', 'C4.4']"
+392,fusion,"['C4.1', 'C4.2']",C4.5
+427,fusion,"['C4.3', 'C4.5']",C4.6
+440,fusion,"['C4.6', 'C4.4']",C4.7
+721,end,C4.7,[]
+0,begin,[],C5
+22,out,C5,[]
+0,begin,[],C6
+287,death,C6,[]
+0,begin,[],C7
+250,out,C7,[]
+0,begin,[],C8
+385,death,C8,[]
+0,begin,[],C9
+332,div,C9,"['C9.1', 'C9.2']"
+516,death,C9.1,[]
+526,death,C9.2,[]
+0,begin,[],C10
+432,div,C10,"['C10.1', 'C10.2', 'C10.3']"
+459,fusion,"['C10.1', 'C10.2', 'C10.3']",C10.4
+521,death,C10.4,[]
+0,begin,[],C11
+459,div,C11,"['C11.1', 'C11.2']"
+721,end,C11.1,[]
+589,out,C11.2,[]
+0,begin,[],C12
+418,death,C12,[]
+0,begin,[],C13
+414,div,C13,"['C13.1', 'C13.2', 'C13.3']"
+425,fusion,"['C13.1', 'C13.2']",C13.4
+432,fusion,"['C13.4', 'C13.3']",C13.5
+539,death,C13.5,[]
+0,begin,[],C14
+268,div,C14,"['C14.1', 'C14.2']"
+721,end,C14.1,[]
+721,end,C14.2,[]
+0,begin,[],C15
+721,end,C15,[]
+0,begin,[],C16
+697,death,C16,[]
+0,begin,[],C17
+286,death,C17,[]
+0,begin,[],C18
+247,out,C18,[]

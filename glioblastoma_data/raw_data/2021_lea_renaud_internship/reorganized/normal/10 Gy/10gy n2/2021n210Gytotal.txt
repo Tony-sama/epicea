@@ -1,0 +1,454 @@
+color white
+
+#Date:2021 n2
+#cellules : u251
+#irradiation: 10Gy
+#puit: 4C
+
+# cellule 1
+0 begin C1
+58 out C1
+
+# cellule 2
+0 begin C2
+85 out C2
+
+# cellule 3
+0 begin C3
+435 div C3 3 C3.1 C3.2 C3.3
+459 fusion C3.1 C3.2 in C3.4
+476 fusion C3.4 C3.3 in C3.5
+481 death C3.5
+
+
+#cellule 4
+0 begin C4
+186 div C4 2 C4.1 C4.2
+380 div C4.1 2 C4.1.1 C4.1.2
+721 end C4.1.1
+721 end C4.1.2
+365 div C4.2 2 C4.2.1 C4.2.2
+380 death C4.2.1
+720 out C4.2.2
+
+
+#cellule 5
+0 begin C5
+217 div C5 2 C5.1 C5.2
+512 out C5.1
+531 div C5.2 2 C5.2.1 C5.2.2
+570 fusion C5.2.1 C5.2.2 in C5.3
+653 death C5.3
+
+
+#cellule 6
+0 begin C6
+721 end C6
+
+#cellule 7
+0 begin C7
+700 death C7
+
+#cellule 8
+0 begin C8
+162 out C8
+
+#cellule 9
+0 begin C9
+41 out C9
+
+#cellule 10
+0 begin C10
+402 div C10 3 C10.1 C10.2 C10.3
+420 fusion C10.1 C10.2 in C10.4
+436 death C10.4
+435 death C10.3
+
+#cellule 11
+0 begin C11
+721 end C11
+
+#cellule 12
+0 begin C12
+721 end C12
+
+#cellule 13
+0 begin C13
+377 div C13 3 C13.1 C13.2 C13.3
+399 fusion C13.1 C13.2 in C13.4
+408 fusion C13.4 C13.3 in C13.5
+644 out C13.5
+
+#cellule 14
+0 begin C14
+230 div C14 2 C14.1 C14.2
+366 out C14.1
+231 out C14.2
+
+#cellule 15
+0 begin C15
+381 death C15
+
+# cellule 1
+0 begin C16
+140 out C16
+
+# cellule 2
+0 begin C17
+145 div C17 2 C17.1 C17.2
+321 out C17.1
+240 out C17.2
+
+# cellule 3
+0 begin C18
+460 death C18
+
+
+#cellule 4
+0 begin C19
+338 out C19 
+
+
+#cellule 5
+0 begin C20
+274 death C20
+
+#cellule 6
+0 begin C21
+286 div C21 3 C21.1 C21.2 C21.3
+345 fusion C21.1 C21.2 in C21.4
+351 fusion C21.4 C21.3 in C21.5
+456 death C21.5
+
+#cellule 7
+0 begin C22
+599 div C22 3 C22.1 C22.2 C22.3
+604 fusion C22.1 C22.2 in C22.4
+616 fusion C22.4 C22.3 in C22.5
+721 end C22.5
+
+#cellule 8
+0 begin C23
+24 out C23
+
+# cellule 1
+0 begin C24
+426 out C24
+
+# cellule 2
+0 begin C25
+357 death C25
+
+# cellule 3
+0 begin C26
+416 death C26
+
+
+#cellule 4
+0 begin C27
+315 div C27 3 C27.1 C27.2 C27.3
+721 end C27.1
+682 death C27.2
+667 death C27.3
+
+#cellule 5
+0 begin C28
+283 div C28 3 C28.1 C28.2 C28.3
+389 fusion C28.1 C28.2 C28.3 in C28.4
+469 death C28.4
+
+#cellule 6
+0 begin C29
+482 div C29 2 C29.1 C29.2
+501 fusion C29.1 C29.2 in C29.3
+518 out C29.3
+
+# cellule 1
+0 begin C30
+115 div C30 2 C30.1 C30.2
+721 end C30.1
+276 out C30.2
+
+# cellule 2
+0 begin C31
+26 death C31
+
+# cellule 3
+0 begin C32
+212 death C32
+
+#cellule 4
+0 begin C33
+274 death C33
+
+# cellule 1
+0 begin C34
+56 out C34
+
+# cellule 2
+0 begin C35
+359 div C35 3 C35.1 C35.2 C35.3
+400 fusion C35.1 C35.2 in C35.4
+425 fusion C35.4 C35.3 in C35.5
+721 end C35.5
+
+# cellule 3
+0 begin C36
+371 death C36
+
+
+#cellule 5
+0 begin C37
+280 div C37 2 C37.1 C37.2
+698 death C37.1
+715 death C37.2
+
+#cellule 6
+0 begin C38
+248 div C38 2 C38.1 C38.2
+610 death C38.1
+646 death C38.2
+
+#cellule 7
+0 begin C39
+501 death C39
+
+#cellule 8
+0 begin C40
+401 div C40 2 C40.1 C40.2
+483 death C40.1
+662 death C40.2
+
+# cellule 1
+0 begin C41
+87 div C41 2 C41.1 C41.2
+202 fusion C41.1 C41.2 in C41.3
+477 death C41.3
+
+# cellule 2
+0 begin C42
+545 out C42
+
+# cellule 3
+0 begin C43
+284 div C43 2 C43.1 C43.2
+396 fusion C43.1 C43.2 in C43.3
+527 div C43.3 3 C43.3.1 C43.3.2 C43.3.3
+721 end C43.3.1
+721 end C43.3.2
+721 end C43.3.3
+
+#cellule 4
+0 begin C44
+311 div C44 3 C44.1 C44.2 C44.3
+325 fusion C44.1 C44.2 in C44.4
+342 fusion C44.4 C44.3 in C44.5
+721 end C44.5
+
+# cellule 1
+0 begin C45
+156 death C45
+
+# cellule 2
+0 begin C46
+372 death C46
+
+# cellule 3
+0 begin C47
+268 div C47 2 C47.1 C47.2
+353 death C47.1
+352 death C47.2
+
+#cellule 4
+0 begin C48
+316 div C48 4 C48.1 C48.2 C48.3 C48.4
+645 fusion C48.1 C48.2 in C48.6
+682 death C48.6
+353 fusion C48.3 C48.4 in C48.5
+536 death C48.5
+
+
+#cellule 5
+0 begin C49
+354 div C49 2 C49.1 C49.2
+389 fusion C49.1 C49.2 in C49.3
+490 death C49.3
+
+#cellule 6
+0 begin C50
+273 div C50 2 C50.1 C50.2
+374 death C50.1
+409 death C50.2
+
+#cellule 7
+0 begin C51
+373 death C51
+
+#cellule 8
+0 begin C52
+6 div C52 2 C52.1 C52.2
+380 out C52.1
+140 out C52.2
+
+#cellule 9
+0 begin C53
+15 out C53
+
+# cellule 1
+0 begin C54
+444 death C54
+
+# cellule 2
+0 begin C55
+379 out C55
+
+# cellule 3
+0 begin C56
+144 div C56 2 C56.1 C56.2
+202 fusion C56.1 C56.2 in C56.3
+218 death C56.3
+
+#cellule 4
+0 begin C57
+175 death C57
+
+
+#cellule 5
+0 begin C58
+254 out C58
+
+#cellule 6
+0 begin C59
+345 death C59
+
+#cellule 7
+0 begin C60
+373 death C60
+
+#cellule 8
+0 begin C61
+6 div C61 2 C61.1 C61.2
+380 out C61.1
+140 out C61.2
+
+#cellule 9
+0 begin C62
+15 out C62
+
+# cellule 1
+0 begin C63
+266 out C63
+
+# cellule 2
+0 begin C64
+195 div C64 2 C64.1 C64.2
+721 end C64.1
+583 div C64.2 2 C64.2.1 C64.2.2
+608 fusion C64.2.1 C64.2.2 in C64.3
+716 death C64.3
+
+# cellule 3
+0 begin C65
+466 death C65
+
+#cellule 4
+0 begin C66
+518 death C66
+
+
+#cellule 5
+0 begin C67
+130 div C67 2 C67.1 C67.2
+467 death C67.1
+287 div C67.2 3 C67.2.1 C67.2.2 C67.2.3
+721 end C67.2.1
+721 end C67.2.2
+599 death C67.2.3
+
+#cellule 6
+0 begin C68
+161 div C68 2 C68.1 C68.2
+415 death C68.1
+460 div C68.2 3 C68.2.1 C68.2.2 C68.2.3
+461 fusion C68.2.1 C68.2.2 C68.2.3 in C68.3
+660 death C68.3
+
+#cellule 7
+0 begin C69
+339 death C69
+
+
+# cellule 1
+0 begin C70
+320 div C70 3 C70.1 C70.2 C70.3
+341 fusion C70.1 C70.2 in C70.4
+348 fusion C70.4 C70.3 in C70.5
+377 death C70.5
+
+# cellule 2
+0 begin C71
+335 div C71 3 C71.1 C71.2 C71.3
+354 fusion C71.1 C71.2 in C71.4
+365 fusion C71.4 C71.3 in C71.5
+434 death C71.5
+
+
+# cellule 3
+0 begin C72
+721 end C72
+
+#cellule 4
+0 begin C73
+209 div C73 2 C73.1 C73.2
+510 fusion C73.1 C73.2 in C73.3
+721 end C73.3
+
+
+#cellule 5
+0 begin C74
+703 out C74
+
+#cellule 6
+0 begin C76
+167 div C76 2 C76.1 C76.2
+333 fusion C76.1 C76.2 in C76.3 
+457 div C76.3 6 C76.3.1 C76.3.2 C76.3.3 C76.3.4 C76.3.5 C76.3.6
+506 fusion C76.3.1 C76.3.2 C76.3.3 C76.3.4 in C76.4
+721 death C76.4
+657 death C76.3.5
+645 death C76.3.6
+
+#cellule 7
+0 begin C77
+202 div C77 2 C77.1 C77.2
+610 death C77.1
+671 death C77.2
+
+#cellule 8
+0 begin C78
+317 div C78 3 C78.1 C78.2 C78.3
+421 fusion C78.1 C78.2 in C78.4
+427 fusion C78.4 C78.3 in C78.5
+629 death C78.5
+
+#cellule 9
+0 begin C79
+315 div C79 4 C79.1 C79.2 C79.3 C79.4
+407 death C79.1
+326 fusion C79.2 C79.3 in C79.5
+328 fusion C79.5 C79.4 in C79.6
+468 death C79.6
+
+#cellule 10
+0 begin C80
+3 div C80 2 C80.1 C80.2
+285 out C80.1
+211 out C80.2
+
+
+
+#cellule 4
+0 begin C81
+544 out C81
+
+

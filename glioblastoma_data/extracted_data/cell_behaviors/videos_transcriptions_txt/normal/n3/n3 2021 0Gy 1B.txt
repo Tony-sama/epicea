@@ -1,0 +1,80 @@
+color white
+
+#Date: 2021
+#cellules : u251
+#irradiation: 0Gy
+#puit: 1B
+
+# cellule 1
+0 begin C1
+243 out C1
+
+
+# cellule 2
+0 begin C2
+118 div C2 2 C2.1  C2.2
+309 div C2.1 2 C2.1.1 C2.1.2
+432 end C2.1.1
+432 end C2.1.2
+292 div C2.2 2 C2.2.1 C2.2.2
+432 end C2.2.1
+432 end C2.2.2
+
+
+
+
+# cellule 3
+0 begin C3
+134 div C3 2 C3.1 C3.2
+361 div C3.1 2 C3.1.1 C3.1.2
+432 end C3.1.1
+432 end C3.1.2
+350 div C3.2 2 C3.2.1 C3.2.2
+432 end C3.2.1
+432 end C3.2.2
+
+
+
+
+
+
+#cellule 4
+0 begin C4
+306 death C4
+
+#cellule 5
+0 begin C5
+318 death C5
+
+#cellule 6
+0 begin C6
+25 div C6 2 C6.1 C6.2
+221 div C6.1 2 C6.1.1 C6.1.2
+432 end C6.1.1
+432 end C6.1.2
+205 div C6.2 2 C6.2.1 C6.2.2
+432 end C6.2.1
+432 end C6.2.2
+
+#cellule 7
+0 begin C7
+327 div C7 2 C7.1 C7.2
+337 fusion C7.1 C7.2 in C7.3
+353 death C7.3
+
+#cellule 8
+0 begin C8
+263 death C8
+
+#cellule 9
+0 begin C9
+195 div C9 2 C9.1 C9.2
+382 out C9.1
+382 out C9.2
+
+#cellule 10
+0 begin C10
+382 out C10
+
+
+

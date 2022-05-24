@@ -1,0 +1,62 @@
+color white
+
+#Date: 2016 09 30 
+#cellules : u251
+#irradiation: 15Gy
+#puit: Prise 2
+
+
+
+
+# cellule 1
+0 begin C1
+297 div C1 3 C1.1 C1.2 C1.3
+381 death C1.1
+439 death C1.2
+451 death C1.3
+
+# cellule 2
+0 begin C2
+0 begin C3
+
+45 fusion C2 C3 in C23
+54 div C23 2 C2.1 C2.2
+
+153 death C2.1
+721 end C2.2
+
+
+
+# cellule 4
+0 begin C4
+16 out C4
+
+
+# cellule 5
+0 begin C5
+303 death C5
+
+# cellule 6
+0 begin C6
+390 death C6
+
+# cellule 7
+0 begin C7
+540 death C7
+
+# cellule 8
+0 begin C8
+269 div C8 2 C8.1 C8.2 
+341 death C8.1
+341 death C8.2
+
+# cellule 9
+0 begin C9
+463 div C9 2 C9.1 C9.2
+581 death C9.1
+615 out C9.2
+
+# cellule 10
+0 begin C10
+139 out C10
+

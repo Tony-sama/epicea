@@ -1,0 +1,31 @@
+Nombre de cellules à J0,23
+Nombre de cellules à J5,2
+Nombre de mitoses totale,25
+Nombre de cycles mitotiques,1.08696
+Nombre de mitoses normales,6
+Nombre de mitoses anormales,19
+Nombre de mitoses non dichotomiques,8
+Nombre de refusions après mitose,22
+Nombre total de morts,26
+Nombre de mort sans mitose,5
+Nombre de mort après mitose,21
+Nombre de sorties,1
+Longueur moyenne entre deux cycles,147
+Longueur moyenne entre T0 et première division,214
+,
+Nom des cellules,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23
+Nombre de divisions,0,1,1,1,0,1,2,1,1,2,5,0,1,1,1,1,1,1,1,2,0,1,0
+Nombre de cellules finales,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,
+Nombre de divisions constaté,0,1,2,3,4,5
+Nombre de cellules concernées,5,14,3,0,0,1
+,
+Nombre de cellules finales constaté,0,1
+Nombre de cellules concernées,21,2
+,
+Jours, D1, D2, D3, D4, D5
+Nombre de morts par jour,2,1,3,17,3
+Nombre de mitoses par jour,3,14,6,2,0
+Nombre de mitoses anormale par jour ,3,8,6,2,0
+Nombre de mitoses non dichotimiques par jour ,1,3,4,0,0
+Nombre de fusions par jour ,0,3,16,3,0

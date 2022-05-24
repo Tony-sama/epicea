@@ -1,0 +1,116 @@
+color white
+
+#Date: 2020 11 11
+#cellules : u251
+#irradiation: 8GY
+#puit: A3 prise C
+
+# cellule 1
+0 begin C1
+352 out C1
+
+# cellule 2
+0 begin C2
+84 out C2
+
+# cellule 3
+0 begin C3
+300 div C3 2 C3.1 C3.2
+721 end C3.1
+566 out C3.2
+
+# cellule 4
+0 begin C4
+191 div C4 2 C4.1 C4.2
+399 div C4.1 2 C4.1.1 C4.1.2
+721 end C4.1.1
+552 div C4.1.2 2 C4.1.2.1 C4.1.2.2
+721 end C4.1.2.1
+721 end C4.1.2.2
+393 div C4.2 2 C4.2.1 C4.2.2
+560 out C4.2.1
+592 div C4.2.2 2 C4.2.2.1 C4.2.2.2
+721 end C4.2.2.1
+623 out C4.2.2.2
+
+
+#cellule 5
+0 begin C5
+269 out C5
+
+#cellule 6
+0 begin C6
+130 div C6 2 C6.1 C6.2
+400 div C6.2 2 C6.2.1 C6.2.2
+513 fusion C6.2.1 C6.1 in C6.3
+721 end C6.3
+634 div C6.2.2 2 C6.2.2.1 C6.2.2.2
+721 end C6.2.2.1
+721 end C6.2.2.2
+
+
+#cellule 7
+0 begin C7
+206 death C7
+
+#cellule 8
+0 begin C8
+236 div C8 2 C8.1 C8.2
+571 death C8.1
+328 out C8.2
+
+#cellule 9
+0 begin C9
+259 div C9 3 C9.1 C9.2 C9.3
+388 fusion C9.1 C9.2 in C9.4
+486 death C9.4
+397 out C9.3
+
+
+#cellule 10 
+0 begin C10
+571 out C10
+
+#cellule 11
+0 begin C11
+307 div C11 3 C11.1 C11.2 C11.3
+487 death C11.1
+381 fusion C11.2 C11.3 in C11.4
+548 div C11.4 3 C11.4.1 C11.4.2 C11.4.3
+554 fusion C11.4.1 C11.4.2 C11.4.3 in C11.5
+721 end C11.5
+
+
+#cellule 12
+0 begin C12
+412 div C12 2 C12.1 C12.2
+548 div C12.1 2 C12.1.1 C12.1.2
+611 fusion C12.1.1 C12.1.2 in C12.3
+641 death C12.3
+593 div C12.2 2 C12.2.1 C12.2.2
+721 end C12.2.1
+721 end C12.2.2
+
+#cellule 13
+0 begin C13
+158 div C13 2 C13.1 C13.2
+353 div C13.1 2 C13.1.1 C13.1.2
+573 div C13.1.1 2 C13.1.1.1 C13.1.1.2
+591 div C13.1.2 2 C13.1.2.1 C13.1.2.2
+721 end C13.1.1.1
+721 end C13.1.1.2
+721 end C13.1.2.1
+721 end C13.1.2.2
+596 div C13.2 2 C13.2.1 C13.2.2 
+617 fusion C13.2.1 C13.2.2 in C13.4
+721 end C13.4
+
+#cellule 14
+0 begin C14
+174 div C14 2 C14.1 C14.2
+526 death C14.1
+362 div C14.2 2 C14.2.1 C14.2.2
+612 fusion C14.2.1 C14.2.2 in C14.3
+721 end C14.3
+
+

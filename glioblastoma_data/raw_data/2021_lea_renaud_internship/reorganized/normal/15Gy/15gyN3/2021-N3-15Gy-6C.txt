@@ -1,0 +1,124 @@
+color white
+
+#Date:2021 n3
+#cellules : u251
+#irradiation: 15Gy
+#puit: 6C
+
+# cellule 1
+0 begin C1
+390 div C1 3 C1.1 C1.2 C1.3
+410 fusion C1.1 C1.2 C1.3 in C1.4
+600 death C1.4
+
+# cellule 2
+0 begin C2
+419 out C2
+
+
+# cellule 3
+0 begin C3
+633 death C3
+
+#cellule 4
+0 begin C4
+579 out C4
+
+#cellule 5
+0 begin C5
+721 end C5
+
+#cellule 6
+0 begin C6
+260 div C6 3 C6.1 C6.2 C6.3
+273 fusion C6.1 C6.2 C6.3 in C6.4
+279 death C6.4
+
+#cellule 7
+0 begin C7
+426 div C7 4 C7.1 C7.2 C7.3 C7.4
+427 fusion C7.1 C7.2 C7.3 C7.4 in C7.5
+475 death C7.5
+
+#cellue 8
+0 begin C8
+404 div C8 3 C8.1 C8.2 C8.3
+422 death C8.1
+420 fusion C8.2 C8.3 in C8.4
+421 death C8.4
+
+#cellule 9
+0 begin C9
+526 div C9 4 C9.1 C9.2 C9.3 C9.4
+547 fusion C9.1 C9.2 C9.3 C9.4 in C9.5
+652 death C9.5
+
+
+#cellule 10
+0 begin C10
+520 div C10 4 C10.1 C10.2 C10.3 C10.4
+539 fusion C10.1 C10.2 in C10.5
+546 fusion C10.5 C10.3 C10.4 in C10.6
+645 death C10.6
+
+
+#cellule 11
+0 begin C11
+654 div C11 5 C11.1 C11.2 C11.3 C11.4 C11.5 
+679 fusion C11.1 C11.2 C11.3 C11.4 in C11.6
+682 fusion C11.6 C11.5 in C11.7
+721 end C11.7
+
+#cellule 12
+0 begin C12
+721 end C12
+
+#cellule 13
+0 begin C13
+721 end C13
+
+#cellule 14
+0 begin C14
+425 death C14
+
+#cellule 15
+0 begin C15
+321 div C15 3 C15.1 C15.2 C15.3
+359 fusion C15.1 C15.2 in C15.4
+377 fusion C15.4 C15.3 in C15.5
+385 death C15.5
+
+#cellule 16
+0 begin C16
+391 div C16 3 C16.1 C16.2 C16.3
+398 fusion C16.1 C16.2 C16.3 in C16.4
+475 death C16.4
+
+#cellule 17
+0 begin C17
+679 out C17
+
+#cellule 18
+0 begin C18
+291 death C18
+
+#cellule 19
+0 begin C19
+245 death C19
+
+#cellule 20
+0 begin C20
+73 out C20
+
+#cellule 21
+0 begin C21
+586 div C21 4 C21.1 C21.2 C21.3 C21.4
+610 fusion C21.3 C21.4 in C21.6
+599 fusion C21.1 C21.2 in C21.5
+636 fusion C21.5 C21.6 in C21.7
+721 end C21.7
+
+
+
+
+

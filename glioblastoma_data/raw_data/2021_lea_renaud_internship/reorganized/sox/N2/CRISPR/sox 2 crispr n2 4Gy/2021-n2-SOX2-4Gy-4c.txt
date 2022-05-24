@@ -1,0 +1,104 @@
+color white
+
+#Date: 2021
+#cellules : u251 CRISPR Sox2
+#irradiation: 4Gy
+#puit: 4C
+
+# cellule 1
+0 begin C1
+30 out C1
+
+
+# cellule 2
+0 begin C2
+73 div C2 2 C2.1 C2.2
+341 div C2.1 2 C2.1.1 C2.1.2
+721 end C2.1.1
+661 div C2.1.2 2 C2.1.2.1 C2.1.2.2
+721 end C2.1.2.1
+721 end C2.1.2.2
+
+323 div C2.2 2 C2.2.1 C2.2.2
+517 div C2.2.1 2 C2.2.1.1 C2.2.1.2
+721 end C2.2.1.1
+721 end C2.2.1.2
+559 div C2.2.2 2 C2.2.2.1 C2.2.2.2
+721 end C2.2.2.1
+721 end C2.2.2.2
+
+
+
+
+# cellule 3
+0 begin C3
+2 out C3
+
+#cellule 4
+0 begin C4
+102 div C4 2 C4.1 C4.2
+479 div C4.1 2 C4.1.1 C4.1.2
+596 div C4.1.1 2 C4.1.1.1 C4.1.1.2
+721 end C4.1.1.1
+721 end C4.1.1.2
+721 end C4.1.2
+
+424 div C4.2 2 C4.2.1 C4.2.2
+670 div C4.2.1 2 C4.2.1.1 C4.2.1.2
+721 end C4.2.1.1
+721 end C4.2.1.2
+713 div C4.2.2 2 C4.2.2.1 C4.2.2.2
+721 end C4.2.2.1
+721 end C4.2.2.2
+
+
+
+#cellule 5
+0 begin C5
+67 div C5 2 C5.1 C5.2
+
+365 div C5.1 2 C5.1.1 C5.1.2
+721 end C5.1.1
+721 end C5.1.2
+
+297 div C5.2 2 C5.2.1 C5.2.2
+516 div C5.2.1 2 C5.2.1.1 C5.2.1.2
+721 end C5.2.1.1
+721 end C5.2.1.2
+
+595 div C5.2.2 2 C5.2.2.1 C5.2.2.2
+721 end C5.2.2.1
+721 end C5.2.2.2
+
+#cellule 6
+0 begin C6
+212 div C6 2 C6.1 C6.2
+706 div C6.1 2 C6.1.1 C6.1.2
+721 end C6.1.1
+721 end C6.1.2
+
+650 div C6.2 2 C6.2.1 C6.2.2
+721 end C6.2.1
+721 end C6.2.2
+
+
+
+#cellule 7
+0 begin C7
+313 div C7 2 C7.1 C7.2
+721 end C7.1
+721 end C7.2
+
+#cellule 8
+0 begin C8
+49 div C8 2 C8.1 C8.2
+228 out C8.1
+244 div C8.2 2 C8.2.1 C8.2.2
+425 death C8.2.1
+436 div C8.2.2 2 C8.2.2.1 C8.2.2.2
+721 end C8.2.2.1
+639 div C8.2.2.2 2 C8.2.2.2.1 C8.2.2.2.2
+721 end C8.2.2.2.1
+721 end C8.2.2.2.2
+
+
